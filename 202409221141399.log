@@ -1,0 +1,130 @@
+_____________________________________________________________________________
+A:id=0,psize=4000x1000,pformat=raw,fpsrange=30
+_____________________________________________________________________________
+01-01 01:14:58.122 29754 29754 I QCamxHAL3Test: main 422:Test camera:A:id=0,psize=4000x1000,pformat=raw,fpsrange=30 
+01-01 01:14:58.123 29754 29754 I QCamxHAL3Test: parseCommandlineAdd 815:Command Add:id=0,psize=4000x1000,pformat=raw,fpsrange=30
+01-01 01:14:58.123 29754 29754 I QCamxHAL3Test: parseCommandlineAdd 819:camera:0
+01-01 01:14:58.123 29754 29754 I QCamxHAL3Test: parseCommandlineAdd 825:preview size:4000x1000
+01-01 01:14:58.123 29754 29754 I QCamxHAL3Test: parseCommandlineAdd 869:preview format:raw
+01-01 01:14:58.123 29754 29754 I QCamxHAL3Test: parseCommandlineAdd 1063:FPS_RANGE: min:30 max:1953720691
+01-01 01:14:58.124 29754 29754 I QCamxHAL3Test: main 435:add a camera :0
+01-01 01:14:58.124 29754 29754 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1487 UpdateHDMIResolution()  HDMI Device not present 
+01-01 01:14:58.124 29754 29754 I QCamxHAL3Test: PreinitStreams 172:preview:4000x1000 0
+01-01 01:14:58.124 29754 29754 I QCamxHAL3TestDevice: PreAllocateStreams 1033:allocate buffer start
+01-01 01:14:58.125 29754 29754 D QCamxHAL3TestDevice: PreAllocateStreams 1038:Subformat for stream 0: 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateBuffers 140:AllocateBuffers, Enter subformat=0, type=0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.125 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestBufferManager: AllocateBuffers 151:AllocateBuffers, EXIT
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestDevice: PreAllocateStreams 1062:allocate buffer end
+01-01 01:14:58.126 29754 29754 I QCamxHAL3TestDevice: openCamera 834:open Camera: 0
+01-01 01:14:58.127 29754 29754 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:493 open() HalOp: Begin OPEN, logicalCameraId: 0, cameraId: 0
+01-01 01:14:58.127 29754 29754 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1131 ProcessCameraOpen() Camera id already in use: 0
+01-01 01:14:58.127 29754 29754 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:541 open() HalOp: End OPEN, logicalCameraId: 0, cameraId: 0
+01-01 01:14:58.127 29754 29754 E QCamxHAL3TestDevice: openCamera 840:open Camera failed
+01-01 01:14:58.127 29754 29754 I QCamxHAL3Test: initPreviewStream 128:preview:4000x1000 0
+01-01 01:14:58.127 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 960x720
+01-01 01:14:58.127 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 960x720
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 960x720
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 960x720
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 960x540
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 960x540
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 960x540
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 960x540
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 800x600
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 800x600
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 800x600
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 800x600
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 864x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 864x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 864x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 864x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 800x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 800x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 800x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 800x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 720x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 720x480
+01-01 01:14:58.128 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 720x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 720x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x480
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x400
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x400
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x400
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x400
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x360
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x360
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x360
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x360
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 400x300
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 400x300
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 400x300
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 400x300
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 352x288
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 352x288
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 352x288
+01-01 01:14:58.129 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 352x288
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 400x224
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 400x224
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 400x224
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 400x224
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 384x216
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 384x216
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 384x216
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 384x216
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 320x240
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 320x240
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 320x240
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 320x240
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 240x320
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 240x320
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 240x320
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 240x320
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 176x144
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 176x144
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 176x144
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 176x144
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:37 1000x1000
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:32 1000x1000
+01-01 01:14:58.130 29754 29754 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:36 1000x1000
+01-01 01:14:58.130 29754 29754 E QCamxHAL3Test: initPreviewStream 146:Failed to find output stream for preview: w: 4000, h: 1000, fmt: 0
+01-01 01:14:58.130 29754 35826 I QCamxHAL3TestDevice: doCapturePostProcess 157:doCapturePostProcess capture result handle thread start
+01-01 01:14:58.130 29754 29754 I QCamxHAL3Test: main 394:CAM0>>
+01-01 01:14:58.130 29754 35827 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c382ca0
+01-01 01:14:58.728 29754 31479 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:14:58.729 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:14:58.729 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c376180
+01-01 01:14:59.586 29754 31642 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:14:59.586 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:14:59.586 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c37c670
+01-01 01:15:03.132 29754 35827 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:03.132 29754 35826 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:03.132 29754 35827 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c382ca0
+01-01 01:15:03.731 29754 31479 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:03.732 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:03.732 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c376180
+01-01 01:15:04.586 29754 31642 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:04.588 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:04.588 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c37c670
+01-01 01:15:08.133 29754 35827 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:08.133 29754 35826 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:08.133 29754 35827 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c382ca0
+01-01 01:15:08.732 29754 31479 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:08.733 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:08.733 29754 31480 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c376180
+01-01 01:15:09.587 29754 31642 E QCamxHAL3TestDevice: doCapturePostProcess 165:doCapturePostProcess No Msg got in 5 sec in Result Process thread
+01-01 01:15:09.588 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1460:No Msg Got!
+01-01 01:15:09.589 29754 31643 I QCamxHAL3TestDevice: doprocessCaptureRequest 1455:Waiting Msg :0 or Buffer return at thread:0x555c37c670
