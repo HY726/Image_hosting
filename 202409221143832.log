@@ -1,0 +1,205 @@
+_____________________________________________________________________________
+camx-hal3-test
+_____________________________________________________________________________
+01-01 00:54:35.717 17462 17462 I QCamxHAL3Test: main 366:Enter Camera Testing
+01-01 00:54:35.717 17462 17462 I QCamxHAL3TestLog: registerSigMonitor 184:Monitoring... 
+01-01 00:54:35.736 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/rpcmem_android.c:181: set up allocator 0x55a90f74e0 for DMA buf heap system, ION heap system, heap mask 0x2000000, flags 0x1, legacy flags 0x1
+01-01 00:54:35.736 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_config.c:304: Reading configuration file: camx-hal3-test.debugconfig
+01-01 00:54:35.736 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_config.c:335: fastrpc_config_init: Couldn't find file camx-hal3-test.debugconfig, errno (No such file or directory) at /usr/lib/rfsa/adsp, /dsp/cdsp, /dsp, 
+01-01 00:54:35.736 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:4429: fastrpc_apps_user_init done  with default domain:3 and &fastrpc_trace:0x7f806e28a0
+01-01 00:54:35.736 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:4543: multidsplib_env_init: libcdsprpc.so loaded
+01-01 00:54:35.737 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/rpcmem_android.c:181: set up allocator 0x55a90f4c70 for DMA buf heap system, ION heap system, heap mask 0x2000000, flags 0x1, legacy flags 0x1
+01-01 00:54:35.737 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_config.c:304: Reading configuration file: camx-hal3-test.debugconfig
+01-01 00:54:35.737 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_config.c:335: fastrpc_config_init: Couldn't find file camx-hal3-test.debugconfig, errno (No such file or directory) at /usr/lib/rfsa/adsp, /dsp/adsp, /dsp, 
+01-01 00:54:35.737 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:4429: fastrpc_apps_user_init done  with default domain:0 and &fastrpc_trace:0x7f806228a0
+01-01 00:54:35.737 17462 17462 E camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:4508: Warning: libadsprpc.so 2 instances of libxdsprpc (already loaded libcdsprpc.so). Only 1 allowed
+01-01 00:54:35.737 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:4543: multidsplib_env_init: libadsprpc.so loaded
+01-01 00:54:35.740 17462 17462 V CamX    : [ VERB][CORE   ] camxoverridesettingsfile.cpp:430 Initialize() Could not find override settings text file at: /vendor/etc/camera/camxoverridesettings.txt
+01-01 00:54:35.740 17462 17462 V CamX    : [ VERB][CORE   ] camxoverridesettingsfile.cpp:430 Initialize() Could not find override settings text file at: ./camxoverridesettings.txt
+01-01 00:54:35.740 17462 17462 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:273 DumpOverriddenSettings() =============== BEGIN DUMP OF OVERRIDE SETTINGS ===============
+01-01 00:54:35.740 17462 17462 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:274 DumpOverriddenSettings() <Setting> (<Hash>) = <Value>
+01-01 00:54:35.740 17462 17462 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:278 DumpOverriddenSettings() ================ END DUMP OF OVERRIDE SETTINGS ================
+01-01 00:54:35.741 17462 17462 V CamX    : [ VERB][CORE   ] camxsettingsmanager.cpp:395 LoadCamxSettingsOps() Loading from:com.qti.settings.sm8550.so, size:56
+01-01 00:54:35.741 17462 17462 V CamX    : [ VERB][UTILS  ] camxhashmap.cpp:211 GetInPlace() Key not found
+01-01 00:54:35.747 17462 17462 V CamX    : [ VERB][UTILS  ] camxhashmap.cpp:211 GetInPlace() Key not found
+01-01 00:54:35.774 17462 17462 W CamX    : [ WARN][CSL    ] camxcslhwinternal.cpp:3855 CSLHwInternalFDIoctl() Ioctl failed for FD:7 with error reason Invalid argument
+01-01 00:54:35.785 17462 17462 E CamX    : [ERROR][UTILS  ] camxosutilslinuxembedded.cpp:1024 LibMap() dlopen: /usr/lib/camera/components/com.qti.node.fcv.so: undefined symbol: g_enableChxLogs, on '/usr/lib/camera/components/com.qti.node.fcv.so'
+01-01 00:54:35.817 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camximagesensormoduledatamanager.cpp:576 GenerateAuxiliaryCSIPHYDatarateMaskMap() Creating file (/data/vendor/camera/CSIPHYAuxDatarateMask.txt) to store CSIPHY aux datarate mask
+01-01 00:54:35.817 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camximagesensormoduledatamanager.cpp:622 GenerateAuxiliaryCSIPHYDatarateMaskMap() [CSIPHY DBG] Map for CameraID:AuxDatarateMask
+01-01 00:54:35.817 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camximagesensormoduledatamanager.cpp:623 GenerateAuxiliaryCSIPHYDatarateMaskMap() [CSIPHY DBG] -----------------
+01-01 00:54:35.817 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camximagesensormoduledatamanager.cpp:632 GenerateAuxiliaryCSIPHYDatarateMaskMap() [CSIPHY DBG] -----------------
+01-01 00:54:36.275 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camxhwinterface.cpp:731 ProbeImageSensorModules() TOTAL PROBED SENSORS: 1
+01-01 00:54:36.275 17462 17462 I CamX    : [CORE_CFG][SENSOR ] camxhwinterface.cpp:742 ProbeImageSensorModules() Index[0] slotId[4] position [0] name[vd56g3_top_left]
+01-01 00:54:36.275 17462 17462 W CamX    : [ WARN][SENSOR ] camximagesensormoduledata.cpp:1202 CreateSensorSubModules() Flash driver data not found, sensor 4 have no flash support
+01-01 00:54:36.275 17462 17462 W CamX    : [ WARN][SENSOR ] camximagesensormoduledata.cpp:1228 CreateSensorSubModules() camera 4 have no GMSL support, pSensorDriverData 0x55a92205e0, gmslInfoExists 0, isGmslModule 0
+01-01 00:54:36.275 17462 17462 I CamX    : [CORE_CFG][HWL    ] camxhwenvironment.cpp:915 GetHWResourceInfo() HW resource cost for sensor[0] vd56g3_top_left numIFEs needed 1 maxPPS = 46300800.000000 clockRate threshold 466000000.000000 required 27780482.000000 Stream combination fps 30.000000 Dimension 1000x1000 maxLineWidthRequired 1000 lineWidth 7296
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][UTILS  ] camxosutilslinuxembedded.cpp:2168 SetCoreDumpDirectoryPath() Camera Core Dump: Dir:/data/vendor/camera/coredump already exists
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][UTILS  ] camxosutilslinuxembedded.cpp:2280 SetMetadataDumpDirectoryPath() Camera Metadata Dump: Dir:/data/vendor/camera/metadata already exists
+01-01 00:54:36.276 17462 17462 I Camx    : CamxFormatUtil_GetFlexibleYUVFormats array count size 7, CamxFormatUtilMaxFlexibleFormats 13
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x113 uses alignment 64X64
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x125 uses alignment 128X32
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x126 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x128 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x129 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x130 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x127 uses alignment 64X64
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x7fa30c04 uses alignment 128X32
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x116 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][FORMAT ] camximageformatmapperlinuxembedded.cpp:106 Initialize() format 0x102 uses alignment 512X512
+01-01 00:54:36.276 17462 17462 I CamX    : [CORE_CFG][CORE   ] camxvendortags.cpp:3963 InitializeVendorTagInfo() Create HwInterface : result:0
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.eisv3PerspectiveGridTransform
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.eisv3EIS3Handle
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.eisv3EISv3TimeIntervalSync
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.gyrornnSFEAlignmentMargin
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.gyrornnSFEAlignmentGrid
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert com.qti.node.gyrornnSFEAlignmentShiftOffset
+01-01 00:54:36.278 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3915 VendorTagManager() Locationmap has duplicated entry! Failed to insert org.quic.camera.scratchbufferdataScratchBufferData
+01-01 00:54:36.278 17462 17462 I QCamxHAL3Test: loadCameraModule 199:loaded HAL id=camera path=/usr/lib/hw/camera.qcom.so cmi=0x7f82476498 handle=0x55a90e0bd0
+01-01 00:54:36.279 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:730 HAL3Module() ***************************************************
+01-01 00:54:36.279 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:731 HAL3Module() SHA1:     64224342c4f35237e4193dd601ffab46e0540397
+01-01 00:54:36.279 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:732 HAL3Module() COMMITID: Ic93b98170e952017e50eff16feb12156e1b6c03d
+01-01 00:54:36.279 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:733 HAL3Module() BUILD TS: 9/19/2024 11:9:51
+01-01 00:54:36.279 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:734 HAL3Module() ***************************************************
+01-01 00:54:36.282 17462 17462 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:310 Initialize() hwType 3, numHw 3 
+01-01 00:54:36.282 17462 17462 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:310 Initialize() hwType 5, numHw 2 
+01-01 00:54:36.282 17462 17462 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:310 Initialize() hwType 1, numHw 3 
+01-01 00:54:36.282 17462 17462 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:310 Initialize() hwType 6, numHw 2 
+01-01 00:54:39.411 17462 17462 W CamX    : [ WARN][NCS    ] camxncsintfqsee.cpp:675 ProbeSensor() Timed out for probing sensor 3!
+01-01 00:54:39.413 17462 17462 W CamX    : [ WARN][NCS    ] camxncsintfqsee.cpp:294 ListSensors() Probe sensor 3 with error 9
+01-01 00:54:42.524 17462 17462 W CamX    : [ WARN][NCS    ] camxncsintfqsee.cpp:675 ProbeSensor() Timed out for probing sensor 9!
+01-01 00:54:42.526 17462 17462 W CamX    : [ WARN][NCS    ] camxncsintfqsee.cpp:294 ListSensors() Probe sensor 9 with error 9
+01-01 00:54:42.599 17462 17462 E CamX    : [ERROR][NCS    ] camxncsintfnis.cpp:1165 Initialize() Unable to initialize CSS Service object
+01-01 00:54:42.599 17462 17462 E CamX    : [ERROR][NCS    ] camxncsintfnis.cpp:1085 GetInstance() Unable to init the NIS object
+01-01 00:54:42.599 17462 17462 E CamX    : [ERROR][NCS    ] camxncsservice.cpp:105 Initialize() Unable to find interface type 1!
+01-01 00:54:42.602 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:1705: remote_handle64_open: Successfully opened handle 0x55aa648710 (remote handle 0x0) for '":;./\createstaticpd:sensorspd&_dom=adsp on domain 0 (spawn time 0 us, load time 0 us), num of open handles: 1
+01-01 00:54:42.616 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:3423: close_device_node: closed dev 39 on domain 0
+01-01 00:54:42.639 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_perf.c:273: fastrpc_perf_init: enabled systrace 0x0 and RPC traces (kernel 0, dsp 0) with frequency 1000
+01-01 00:54:42.640 17462 17602 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/log_config.c:348: file_watcher_thread starting for domain 0
+01-01 00:54:42.640 17462 17602 W camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/log_config.c:358:file_watcher_thread: Couldn't find file camx-hal3-test.farf, errno (No such file or directory)
+01-01 00:54:42.655 17462 17601 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/listener_android.c:116: listener thread starting
+01-01 00:54:42.693 17462 17601 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:701: open_mod_table_open_from_static: reverse module apps_std opened with handle 0x806e56f0 (idx 0)
+01-01 00:54:42.711 17462 17601 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/apps_std_imp.c:984: Successfully opened file /dsp/adsp/libsns_direct_channel_skel.so
+01-01 00:54:42.867 17462 17462 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:1705: remote_handle64_open: Successfully opened handle 0x55aa648640 (remote handle 0xb2896b40) for file:///libsns_direct_channel_skel.so?sns_direct_channel_skel_handle_invoke&_modver=1.0&_dom=adsp on domain 0 (spawn time 0 us, load time 0 us), num of open handl
+01-01 00:54:42.888 17462 17601 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:701: open_mod_table_open_from_static: reverse module apps_mem opened with handle 0x806e57f0 (idx 1)
+01-01 00:54:43.580 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [Mag] sensor is dead, curTimeMs=1054436, connLastUpdatedMs=1054220, timeoutMs=200
+01-01 00:54:43.580 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [Mag] Send suid dead event
+01-01 00:54:43.581 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [Mag] Start recovery, request type=0, channel type=0
+01-01 00:54:43.676 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [Mag] Finish recovery, request type=0, channel type=0
+01-01 00:54:44.087 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [Mag] sensor is dead, curTimeMs=1054943, connLastUpdatedMs=1054732, timeoutMs=200
+01-01 00:54:44.087 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [Mag] Send suid dead event
+01-01 00:54:44.087 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [Mag] Start recovery, request type=0, channel type=0
+01-01 00:54:44.187 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [Mag] Finish recovery, request type=0, channel type=0
+01-01 00:54:44.587 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [Mag] sensor is dead, curTimeMs=1055443, connLastUpdatedMs=1055243, timeoutMs=200
+01-01 00:54:44.587 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [Mag] Send suid dead event
+01-01 00:54:44.587 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [Mag] Start recovery, request type=0, channel type=0
+01-01 00:54:44.689 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [Mag] Finish recovery, request type=0, channel type=0
+01-01 00:54:45.101 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [Mag] sensor is dead, curTimeMs=1055957, connLastUpdatedMs=1055745, timeoutMs=200
+01-01 00:54:45.101 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [Mag] Send suid dead event
+01-01 00:54:45.101 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [Mag] Start recovery, request type=0, channel type=0
+01-01 00:54:45.200 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [Mag] Finish recovery, request type=0, channel type=0
+01-01 00:54:45.616 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [Mag] sensor is dead, curTimeMs=1056472, connLastUpdatedMs=1056256, timeoutMs=200
+01-01 00:54:45.616 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [Mag] Send suid dead event
+01-01 00:54:45.616 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [Mag] Start recovery, request type=0, channel type=0
+01-01 00:54:45.638 17462 17599 E CamX    : [ERROR][NCS    ] camxncsintfqsee2.cpp:1432 HandleDeadEventCb() Receive dead event 5 times, disable conn.
+01-01 00:54:45.638 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [Mag] Finish recovery, request type=0, channel type=0
+01-01 00:54:46.329 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [MagCal] sensor is dead, curTimeMs=1057185, connLastUpdatedMs=1056971, timeoutMs=200
+01-01 00:54:46.329 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [MagCal] Send suid dead event
+01-01 00:54:46.330 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [MagCal] Start recovery, request type=0, channel type=0
+01-01 00:54:46.427 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [MagCal] Finish recovery, request type=0, channel type=0
+01-01 00:54:46.834 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [MagCal] sensor is dead, curTimeMs=1057690, connLastUpdatedMs=1057483, timeoutMs=200
+01-01 00:54:46.834 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [MagCal] Send suid dead event
+01-01 00:54:46.834 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [MagCal] Start recovery, request type=0, channel type=0
+01-01 00:54:46.934 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [MagCal] Finish recovery, request type=0, channel type=0
+01-01 00:54:47.350 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [MagCal] sensor is dead, curTimeMs=1058207, connLastUpdatedMs=1057990, timeoutMs=200
+01-01 00:54:47.351 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [MagCal] Send suid dead event
+01-01 00:54:47.351 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [MagCal] Start recovery, request type=0, channel type=0
+01-01 00:54:47.436 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [MagCal] Finish recovery, request type=0, channel type=0
+01-01 00:54:47.851 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [MagCal] sensor is dead, curTimeMs=1058707, connLastUpdatedMs=1058492, timeoutMs=200
+01-01 00:54:47.851 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [MagCal] Send suid dead event
+01-01 00:54:47.851 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [MagCal] Start recovery, request type=0, channel type=0
+01-01 00:54:47.951 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [MagCal] Finish recovery, request type=0, channel type=0
+01-01 00:54:48.363 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:2053 IsConnStillAlive() [MagCal] sensor is dead, curTimeMs=1059219, connLastUpdatedMs=1059007, timeoutMs=200
+01-01 00:54:48.364 17462 17599 W CamX    : [ WARN][NCS    ] camxncsdirectchannel.cpp:1393 GenericSharedMemThread() [MagCal] Send suid dead event
+01-01 00:54:48.364 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1418 HandleDeadEventCb() [MagCal] Start recovery, request type=0, channel type=0
+01-01 00:54:48.385 17462 17599 E CamX    : [ERROR][NCS    ] camxncsintfqsee2.cpp:1432 HandleDeadEventCb() Receive dead event 5 times, disable conn.
+01-01 00:54:48.386 17462 17599 W CamX    : [ WARN][NCS    ] camxncsintfqsee2.cpp:1536 HandleDeadEventCb() [MagCal] Finish recovery, request type=0, channel type=0
+01-01 00:54:48.749 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag ExtraHALBuffers in section com.qti.node.swmctf does not exist!
+01-01 00:54:48.749 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 289, Section com.qti.node.swmctf, TagName ExtraHALBuffers
+01-01 00:54:48.749 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag SupportedFeature in section com.qti.node.fcv does not exist!
+01-01 00:54:48.750 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 398, Section com.qti.node.fcv, TagName SupportedFeature
+01-01 00:54:48.750 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag CurrentMode in section com.qti.node.fcv does not exist!
+01-01 00:54:48.750 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 399, Section com.qti.node.fcv, TagName CurrentMode
+01-01 00:54:48.750 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag ProcessedFrameNumber in section com.qti.node.fcv does not exist!
+01-01 00:54:48.750 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 400, Section com.qti.node.fcv, TagName ProcessedFrameNumber
+01-01 00:54:48.750 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag FrameDimension in section com.qti.node.fcv does not exist!
+01-01 00:54:48.750 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 401, Section com.qti.node.fcv, TagName FrameDimension
+01-01 00:54:48.750 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag BypassCameraId in section com.qti.node.fcv does not exist!
+01-01 00:54:48.750 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 402, Section com.qti.node.fcv, TagName BypassCameraId
+01-01 00:54:48.750 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag Depth2LUT in section com.qti.node.dummydepth does not exist!
+01-01 00:54:48.751 17462 17462 E CamX    : [ERROR][CORE   ] camxvendortags.cpp:3601 CacheVendorTagLocations() Failed to find TagId: 495, Section com.qti.node.dummydepth, TagName Depth2LUT
+01-01 00:54:48.751 17462 17462 I CHIUSECASE: [CORE_CFG ] chimcxcameraconfig.cpp:101 PickMatchingCameraXML() sensorId(4) -> sensorName(vd56g3_top_left), isVirtualSensor(0)
+01-01 00:54:48.751 17462 17462 I CHIUSECASE: [CORE_CFG ] chimcxcameraconfig.cpp:114 PickMatchingCameraXML() Building LogicalCameraInfo from kailua_supersetdc.xml based on xml matching
+01-01 00:54:48.751 17462 17462 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:3785 FillHwDeviceInformation() Building LogicalCameraInfo from _
+01-01 00:54:48.751 17462 17462 W CHIUSECASE: [WARN   ] chxlogicalcameras.h:561 isDeviceAvailable() Can't build "TelePhysicalCam_LogicalImpl". Failed to find slotId 3
+01-01 00:54:48.751 17462 17462 W CHIUSECASE: [WARN   ] chxlogicalcameras.h:561 isDeviceAvailable() Can't build "WidePhysicalCam_LogicalImpl". Failed to find slotId 2
+01-01 00:54:48.751 17462 17462 W CHIUSECASE: [WARN   ] chxlogicalcameras.h:561 isDeviceAvailable() Can't build "TwoPDPhysicalCam_LogicalImpl". Failed to find slotId 2
+01-01 00:54:48.751 17462 17462 W CHIUSECASE: [WARN   ] chxlogicalcameras.h:561 isDeviceAvailable() Can't build "UltrawidePhysicalCam_LogicalImpl". Failed to find slotId 1
+01-01 00:54:48.752 17462 17462 W CHIUSECASE: [WARN   ] chxlogicalcameras.h:561 isDeviceAvailable() Can't build "SHDRPhysicalCam_LogicalImpl". Failed to find slotId 2
+01-01 00:54:48.752 17462 17462 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:3841 EnumerateGeneratedCameras() Building FrontPhysicalCam_LogicalImpl fold 0
+01-01 00:54:48.752 17462 17462 I CHIUSECASE: [CORE_CFG ] chxlogicalcameras.cpp:513 EnforceCameraIdInvariants() Cam.(frameworkId 0, cameraId = 0, xmlCameraId = 1, fold 0, ppDeviceInfo[0].(cameraId = 0, frameworkId = 0, sensorId = 4, logicalCamId 0, isPrimary = 1))
+01-01 00:54:48.752 17462 17462 I CHIUSECASE: [CORE_CFG ] chimcxdevicecaps.cpp:2057 LegacyPublishLogicalCameraType() Publishing LogicalCameraId 0 - DeviceInfo.cameraId 0
+01-01 00:54:48.752 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag physicalCameraIds in section org.codeaurora.qcamera3.logicalCameraType does not exist!
+01-01 00:54:48.753 17462 17462 W CamX    : [ WARN][CORE   ] camxvendortags.cpp:367 QueryVendorTagLocation() Vendor tag NumOfBayerMerge in section org.codeaurora.qcamera3.sessionParameters does not exist!
+01-01 00:54:48.754 17462 17462 E CamX    : [ERROR][CHI    ] camxchi.cpp:3307 ChiStartCSSAONUsecase() Invalid CSS((nil)) / static settings(0x55a9128d40)
+01-01 00:54:48.754 17462 17462 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:2724 GetNumCameras() ExposedNumOfCamera:1, all:1 legacy 0
+01-01 00:54:48.754 17462 17462 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:1373 CheckForLogicalCamsAffectedByFoldEvent() 0 Camera(s) became unavailable by foldEvent
+01-01 00:54:48.756 17462 17462 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:153 StartHotPlugThread() Opening of device fd failed No such file or directory
+01-01 00:54:48.757 17462 17462 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1487 UpdateHDMIResolution()  HDMI Device not present 
+01-01 00:54:48.758 17462 17462 I QCamxHAL3Test: initialize 282:Camera: 0 face:0 name:vd56g3_top_left
+01-01 00:54:48.758 17462 17462 I QCamxHAL3Test: main 394:CAM0>>
+_____________________________________________________________________________
+A:id=4,psize=4000x1000,pformat=raw,fpsrange=30
+_____________________________________________________________________________
+01-01 00:54:57.927 17462 17462 I QCamxHAL3Test: main 422:Test camera:A:id=4,psize=4000x1000,pformat=raw,fpsrange=30 
+01-01 00:54:57.928 17462 17462 I QCamxHAL3Test: parseCommandlineAdd 815:Command Add:id=4,psize=4000x1000,pformat=raw,fpsrange=30
+01-01 00:54:57.928 17462 17462 I QCamxHAL3Test: parseCommandlineAdd 819:camera:4
+01-01 00:54:57.928 17462 17462 I QCamxHAL3Test: parseCommandlineAdd 825:preview size:4000x1000
+01-01 00:54:57.929 17462 17462 I QCamxHAL3Test: parseCommandlineAdd 869:preview format:raw
+01-01 00:54:57.929 17462 17462 I QCamxHAL3Test: parseCommandlineAdd 1063:FPS_RANGE: min:30 max:1953720691
+01-01 00:54:57.929 17462 17462 I QCamxHAL3Test: main 435:add a camera :4
+01-01 00:54:57.929 17462 17462 E CHIUSECASE: [ERROR  ] chxextensionmodule.cpp:2443 GetCameraIdIndex() Failed to find a logical camera with frameworkId 4
+01-01 00:54:57.929 17462 17462 I QCamxHAL3TestLog: signal_handler 88:=========>>>catch signal 11 <<< from tid:17462====== 
+01-01 00:54:57.929 17462 17462 I QCamxHAL3TestLog: signal_handler 103:Run cmd: cat /proc/17462/maps | grep '/usr' | grep 'r-xp' | tee /data/misc/camera/trace_17462[11].txt 
+01-01 00:54:57.955 17462 17462 I QCamxHAL3TestLog: signal_handler 106:Dump stack start... 
+01-01 00:54:57.955 17462 17462 I QCamxHAL3TestLog: dump 58:backtrace() returned 16 addresses 
+01-01 00:54:57.964 17462 17462 I QCamxHAL3TestLog: dump 67:[00] camx-hal3-test(_ZN16QCamxHAL3TestLog4dumpEPc+0x34) [0x5585014284] 
+01-01 00:54:57.974 17462 17462 I QCamxHAL3TestLog: dump 67:[01] camx-hal3-test(_ZN16QCamxHAL3TestLog14signal_handlerEi+0x1e4) [0x5585014634] 
+01-01 00:54:57.981 17462 17462 I QCamxHAL3TestLog: dump 67:[02] /lib/libcamxcommonutils.so(_ZN4CamX13SignalCatcherEiP9siginfo_tPv+0x300) [0x7f801f1290] 
+01-01 00:54:58.001 17462 17462 I QCamxHAL3TestLog: dump 67:[03] linux-vdso.so.1(__kernel_rt_sigreturn+0) [0x7f83c1184c] 
+01-01 00:54:58.011 17462 17462 I QCamxHAL3TestLog: dump 67:[04] /lib/libcamera_metadata.so.0(find_camera_metadata_entry+0x8) [0x7f82ea7318] 
+01-01 00:54:58.021 17462 17462 I QCamxHAL3TestLog: dump 67:[05] /usr/lib/hw/camera.qcom.so(_ZN4CamX16HAL3MetadataUtil11GetMetadataEPvjPS1_+0x28) [0x7f8127d788] 
+01-01 00:54:58.032 17462 17462 I QCamxHAL3TestLog: dump 67:[06] /usr/lib/hw/camera.qcom.so(_ZN4CamX10HAL3Module20UpdateHDMIResolutionEPNS_10CameraInfoEj+0x48) [0x7f8129cca8] 
+01-01 00:54:58.040 17462 17462 I QCamxHAL3TestLog: dump 67:[07] /usr/lib/hw/camera.qcom.so(_ZNK4CamX10HAL3Module13GetCameraInfoEjjPNS_10CameraInfoE+0x90) [0x7f8129ca30] 
+01-01 00:54:58.049 17462 17462 I QCamxHAL3TestLog: dump 67:[08] /usr/lib/hw/camera.qcom.so(+0xb3d298) [0x7f8128d298] 
+01-01 00:54:58.072 17462 17462 I QCamxHAL3TestLog: dump 67:[09] camx-hal3-test(_ZN19QCamxHAL3TestDeviceC1EP13camera_moduleiP19QCamxHAL3TestConfigi+0x174) [0x5584fffc34] 
+01-01 00:54:58.082 17462 17462 I QCamxHAL3TestLog: dump 67:[10] camx-hal3-test(_ZN17QCamxHAL3TestCase4initEP13camera_moduleP19QCamxHAL3TestConfig+0x88) [0x5584ffdee8] 
+01-01 00:54:58.091 17462 17462 I QCamxHAL3TestLog: dump 67:[11] camx-hal3-test(_ZN24QCamxHAL3TestPreviewOnlyC1EP13camera_moduleP19QCamxHAL3TestConfig+0x30) [0x55850125c0] 
+01-01 00:54:58.096 17462 17462 I QCamxHAL3TestLog: dump 67:[12] camx-hal3-test(main+0x78c) [0x558500b82c] 
+01-01 00:54:58.108 17462 17462 I QCamxHAL3TestLog: dump 67:[13] /lib/aarch64-linux-gnu/libc.so.6(+0x273fc) [0x7f82a673fc] 
+01-01 00:54:58.116 17462 17462 I QCamxHAL3TestLog: dump 67:[14] /lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x98) [0x7f82a674cc] 
+01-01 00:54:58.122 17462 17462 I QCamxHAL3TestLog: dump 67:[15] camx-hal3-test(_start+0x30) [0x5584ffbf30] 
+01-01 00:54:58.129 17462 17462 I QCamxHAL3TestLog: signal_handler 108:Dump stack end... 
+01-01 00:54:58.129 17462 17462 I QCamxHAL3TestLog: signal_handler 113:Run cmd: ls -l /proc/17462/fd > /data/misc/camera/fd_17462[11].txt 
+01-01 00:54:58.153 17462 17462 I QCamxHAL3TestLog: signal_handler 119:Run cmd: cat /proc/17462/maps > /data/misc/camera/maps_17462[11].txt 
+01-01 00:54:58.178 17462 17462 I QCamxHAL3TestLog: signal_handler 125:Run cmd: cat /proc/meminfo > /data/misc/camera/meminfo_17462[11].txt 
+01-01 00:54:58.206 17462 17462 I QCamxHAL3TestLog: signal_handler 131:Run cmd: ps -T > /data/misc/camera/ps_17462[11].txt 
+01-01 00:54:58.268 17462 17462 I QCamxHAL3TestLog: signal_handler 137:Run cmd: top -b -n 1 > /data/misc/camera/top_17462[11].txt
+
+
+
+
+
+
+
+
+
