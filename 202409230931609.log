@@ -1,0 +1,527 @@
+01-01 00:02:55.111  4132  4132 I QCamxHAL3Test: main 394:CAM0>>
+01-01 00:03:03.958  4132  4132 I QCamxHAL3Test: main 422:Test camera:A:id=0,psize=1000x1000,pformat=yuv420 
+01-01 00:03:03.960  4132  4132 I QCamxHAL3Test: parseCommandlineAdd 815:Command Add:id=0,psize=1000x1000,pformat=yuv420
+01-01 00:03:03.960  4132  4132 I QCamxHAL3Test: parseCommandlineAdd 819:camera:0
+01-01 00:03:03.960  4132  4132 I QCamxHAL3Test: parseCommandlineAdd 825:preview size:1000x1000
+01-01 00:03:03.960  4132  4132 I QCamxHAL3Test: parseCommandlineAdd 869:preview format:yuv420
+01-01 00:03:03.960  4132  4132 I QCamxHAL3Test: main 435:add a camera :0
+01-01 00:03:03.960  4132  4132 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1487 UpdateHDMIResolution()  HDMI Device not present 
+01-01 00:03:04.018  4132  4132 I QCamxHAL3Test: PreinitStreams 172:preview:1000x1000 35
+01-01 00:03:04.018  4132  4132 I QCamxHAL3TestDevice: PreAllocateStreams 1033:allocate buffer start
+01-01 00:03:04.019  4132  4132 D QCamxHAL3TestDevice: PreAllocateStreams 1038:Subformat for stream 0: 0
+01-01 00:03:04.019  4132  4132 I QCamxHAL3TestBufferManager: AllocateBuffers 140:AllocateBuffers, Enter subformat=0, type=0
+01-01 00:03:04.019  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.019  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.020  4132  4132 I QCamxHAL3TestBufferManager: AllocateOneBuffer 172:Type =0, subformat 0
+01-01 00:03:04.021  4132  4132 I QCamxHAL3TestBufferManager: AllocateBuffers 151:AllocateBuffers, EXIT
+01-01 00:03:04.021  4132  4132 I QCamxHAL3TestDevice: PreAllocateStreams 1062:allocate buffer end
+01-01 00:03:04.021  4132  4132 I QCamxHAL3TestDevice: openCamera 834:open Camera: 0
+01-01 00:03:04.021  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:437 open() camxhal3 open function is called !
+01-01 00:03:04.025  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:495 open() HalOp: Begin OPEN, logicalCameraId: 0, cameraId: 0
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1493 Dump() --------------------
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1494 Dump()     Key      Cost   
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1495 Dump() --------------------
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {1, 0} :   100
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 100
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 0
+01-01 00:03:04.025  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 100
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:478 DumpState() 
+01-01 00:03:04.026  4132  4132 E CamX    : 
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:479 DumpState() reservation Id: 0
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:480 DumpState() ----------------------------------
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:481 DumpState()     Key      reservation
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:482 DumpState() ----------------------------------
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:491 DumpState()   {1, 0} :     100
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1493 Dump() --------------------
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1494 Dump()     Key      Cost   
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1495 Dump() --------------------
+01-01 00:03:04.026  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {5, 4} :   50
+01-01 00:03:04.026  4132  4132 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:2074 ExtendOpen() Using XML for Logical Cameras -- file: kailua_supersetdc.xml
+01-01 00:03:04.026  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:1147 ProcessCameraOpen() Number of cameras opened 1
+01-01 00:03:04.030  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:543 open() HalOp: End OPEN, logicalCameraId: 0, cameraId: 0
+01-01 00:03:04.033  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxthermalmanager.cpp:96 Initialize() Successfully registered with the Thermal Engine
+01-01 00:03:04.033  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxthermalmanager.cpp:145 RegisterHALDevice() Registered pHALDevice=0x55968dbfe0 CameraId=0
+01-01 00:03:04.034  4132  4132 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1487 UpdateHDMIResolution()  HDMI Device not present 
+01-01 00:03:04.034  4132  4132 I QCamxHAL3Test: initPreviewStream 128:preview:1000x1000 35
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 1000x1000
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 960x720
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 960x720
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 960x720
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 960x720
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 960x540
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 960x540
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 960x540
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 960x540
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 800x600
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 800x600
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 800x600
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 800x600
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 864x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 864x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 864x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 864x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 800x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 800x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 800x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 800x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 720x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 720x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 720x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 720x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x480
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x400
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x400
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x400
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x400
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 640x360
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 640x360
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 640x360
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 640x360
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 400x300
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 400x300
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 400x300
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 400x300
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 352x288
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 352x288
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 352x288
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 352x288
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 400x224
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 400x224
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 400x224
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 400x224
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 384x216
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 384x216
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 384x216
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 384x216
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 320x240
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 320x240
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 320x240
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 320x240
+01-01 00:03:04.034  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 240x320
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 240x320
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 240x320
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 240x320
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:34 176x144
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:35 176x144
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:33 176x144
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:54 176x144
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:37 1000x1000
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:32 1000x1000
+01-01 00:03:04.035  4132  4132 D QCamxHAL3TestDevice: GetValidOutputStreams 1868:format:36 1000x1000
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1422 configure_streams() HalOp: Begin CONFIG: 0x55968dbff0, logicalCameraId: 0, cameraId: 0
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1445 configure_streams()   stream[0] = 0x5596f57730 - info:
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1448 configure_streams()             format       : 35, HAL_PIXEL_FORMAT_YCbCr_420_888
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1450 configure_streams()             width        : 1000
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1452 configure_streams()             height       : 1000
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1455 configure_streams()             stream_type  : 00000000, CAMERA3_STREAM_OUTPUT
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1457 configure_streams()             usage        : 00060033
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1459 configure_streams()             max_buffers  : 12
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1462 configure_streams()             rotation     : 00000000, CAMERA3_STREAM_ROTATION_0
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1465 configure_streams()             data_space   : 00000000, HAL_DATASPACE_UNKNOWN
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1467 configure_streams()             priv         : (nil)
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1469 configure_streams()        physical_camera_id         : 
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1471 configure_streams()        groupID         : -1
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1474 configure_streams()             streamUsecase         : 0
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1477 configure_streams()             hdr_profile           : 00000000, HDR_PROFILE_UNKNOWN
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1480 configure_streams()             reserved[0]         : (nil)
+01-01 00:03:04.035  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1482 configure_streams()             reserved[1]         : (nil)
+01-01 00:03:04.036  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:1558 CheckValidStreamConfig() format:35 max Res(1000 x 1000) requested Res(1000 x 1000) 
+01-01 00:03:04.036  4132  4132 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:11151 SetDeviceHDRMode() Set HDR mode to:0 for physical cam:0
+01-01 00:03:04.036  4132  4132 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:11239 SetDeviceHDRNumExposure() Set HDR numHDRExposure to:1 for physical cam:0
+01-01 00:03:04.036  4132  4132 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:10669 ConfigureHDRInformation() Logical camera:0 HDRMode set to:0
+01-01 00:03:04.036  4132  4132 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:5896 InitializeOverrideSession() Session_parameters FPS range 1:30, previewFPS 0, videoFPS 0 BatchSize: 1 HALOutputBufferCombined 0 FPS: 30 SkipPattern: 1, LogicalCameraId = 0 selected use case = 1  count 152 MFHDR_enabled 0 m_isNZSLModeSwitchUsecase: 0 m_isHFRInternalSwitchUsecase: 0
+01-01 00:03:04.044  4132  4132 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:714 FindBestSensorMode() Camera[0] Desired mode: optimal: [1000x1000] max: [1000x1000] min: [1000x1000] frameRate: 30.000000 sensorModeCaps: 00000001 forceMode:-1 SensorHDRExposureType:0, SensorRemosaicType:-1 isAEBSupported:0 numberOfPixelsPerColor:1, isAutoHDRRequired: 0
+01-01 00:03:04.044  4132  4132 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:879 FindBestSensorMode() Camera[0] Selected: modeIndex: 0 Usecase: 5, W=1000, H=1000, FPS:30, NumBatchedFrames:0, caps:1
+01-01 00:03:04.050  4132  4132 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set c000d size 452 max 272
+01-01 00:03:04.050  4132  4132 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set c0010 size 196 max 4
+01-01 00:03:04.050  4132  4132 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 80360000 size 24 max 20
+01-01 00:03:04.050  4132  4132 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:03:04.050  4132  4132 I CHIUSECASE: [CORE_CFG ] chxpipeline.cpp:352 CreateDescriptor() Pipeline[Preview] pipeline pointer 0x5598150cc0 numInputs=0, numOutputs=1 stream w x h: 1000 x 1000 format: 35, numBatchedFrames: 1, HALOutputBufferCombined: 0 maxFPSValue: 30 cameraId: 0 logicalCameraId:0
+01-01 00:03:04.053  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2488 CreateNodes() Topology: Creating Pipeline Preview_0_cam_0, numNodes 10 isSensorInput 1 isRealTime 1
+01-01 00:03:04.053  4132  4132 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:10210 GetSensorModuleIndexes() Sensor[0] GetDeviceIndex failure for Flash, result: CamxResultSuccess
+01-01 00:03:04.053  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_Sensor0_cam0 Type 0 numInputPorts 0 numOutputPorts 2 Sensor: Real
+01-01 00:03:04.056  4132  4132 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_Stats0_cam0
+01-01 00:03:04.056  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_Stats0_cam0 Type 1 numInputPorts 6 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.056  4132  4132 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_AWB0_cam0
+01-01 00:03:04.056  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_AWB0_cam0 Type 12 numInputPorts 2 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.056  4132  4132 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_AutoFocus0_cam0
+01-01 00:03:04.056  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_AutoFocus0_cam0 Type 5 numInputPorts 8 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.064  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_IFE0_cam0 Type 65536 numInputPorts 3 numOutputPorts 19 Sensor: Real
+01-01 00:03:04.068  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxnodelegacy.cpp:851 InitializeSinkPortBufferProperties() Topology: Node::Preview_IPE0_cam0 has a sink port id 8 using format 4 dim 1000x1000, stream 0x5596f57730
+01-01 00:03:04.069  4132  4132 E CamX    : [ERROR][CORE   ] camxnodelegacy.h:3854 IsVSREnabled() Preview_IPE0_cam0 Failed to read VSR enable metaTag
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_IPE0_cam0 Type 65538 numInputPorts 3 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.069  4132  4132 E CamX    : [ERROR][CORE   ] camxnodelegacy.h:3854 IsVSREnabled() Preview_IPE19_cam0 Failed to read VSR enable metaTag
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_IPE19_cam0 Type 65538 numInputPorts 1 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][FD     ] camxfdhwnode.cpp:221 ProcessingNodeInitialize() Node[Preview_FDHw0_cam0] FDType: DLFD 
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_FDHw0_cam0 Type 65540 numInputPorts 1 numOutputPorts 2 Sensor: Real
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][FD     ] camxfdmanagernode.cpp:293 ProcessingNodeInitialize() Node[Preview_FDManager0_cam0] FDType: DLFD 
+01-01 00:03:04.069  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_FDManager0_cam0 Type 8 numInputPorts 3 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2575 CreateNodes() Topology::Preview_0_cam_0 Node::Preview_StatsParse0_cam0 Type 9 numInputPorts 7 numOutputPorts 1 Sensor: Real
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 10) --> (inPort 13) (1 / 6) Node::Preview_Stats0_cam0 using format 9
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 29) --> (inPort 62) (2 / 6) Node::Preview_Stats0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 30) --> (inPort 37) (3 / 6) Node::Preview_Stats0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 32) --> (inPort 3) (4 / 6) Node::Preview_Stats0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 36) --> (inPort 76) (5 / 6) Node::Preview_Stats0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 38) --> (inPort 83) (6 / 6) Node::Preview_Stats0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 21) --> (inPort 1) (1 / 2) Node::Preview_AWB0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 29) --> (inPort 62) (2 / 2) Node::Preview_AWB0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 8) --> (inPort 8) (1 / 8) Node::Preview_AutoFocus0_cam0 using format 10
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 11) --> (inPort 99) (2 / 8) Node::Preview_AutoFocus0_cam0 using format 10
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 9) --> (inPort 11) (3 / 8) Node::Preview_AutoFocus0_cam0 using format 0
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 25) --> (inPort 12) (4 / 8) Node::Preview_AutoFocus0_cam0 using format 23
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 28) --> (inPort 35) (5 / 8) Node::Preview_AutoFocus0_cam0 using format 10
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 30) --> (inPort 37) (6 / 8) Node::Preview_AutoFocus0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 37) --> (inPort 90) (7 / 8) Node::Preview_AutoFocus0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 39) --> (inPort 89) (8 / 8) Node::Preview_AutoFocus0_cam0 using format 10
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_Sensor0_cam0(outPort 0) --> (inPort 2) (1 / 3) Node::Preview_IFE0_cam0 using format 0
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_Sensor0_cam0(outPort 1) --> (inPort 6) (2 / 3) Node::Preview_IFE0_cam0 using format 0
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_Sensor0_cam0(outPort 1) --> (inPort 3) (3 / 3) Node::Preview_IFE0_cam0 using format 0
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 22) --> (inPort 0) (1 / 3) Node::Preview_IPE0_cam0 using format 12
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 23) --> (inPort 1) (2 / 3) Node::Preview_IPE0_cam0 using format 18
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 24) --> (inPort 2) (3 / 3) Node::Preview_IPE0_cam0 using format 18
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2739 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IPE0_cam0(outPort 8) --> (Sink Buffer with Format 4)
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 6) --> (inPort 0) (1 / 1) Node::Preview_IPE19_cam0 using format 3
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IPE19_cam0(outPort 8) --> (inPort 0) (1 / 1) Node::Preview_FDHw0_cam0 using format 3
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IPE19_cam0(outPort 8) --> (inPort 3) (1 / 3) Node::Preview_FDManager0_cam0 using format 3
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_FDHw0_cam0(outPort 0) --> (inPort 0) (2 / 3) Node::Preview_FDManager0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_FDHw0_cam0(outPort 2) --> (inPort 2) (3 / 3) Node::Preview_FDManager0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 19) --> (inPort 9) (1 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 21) --> (inPort 1) (2 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 29) --> (inPort 36) (3 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 30) --> (inPort 35) (4 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 32) --> (inPort 3) (5 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 36) --> (inPort 61) (6 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2686 CreateNodes() Topology: Pipeline[Preview_0_cam_0] Link: Node::Preview_IFE0_cam0(outPort 38) --> (inPort 65) (7 / 7) Node::Preview_StatsParse0_cam0 using format 6
+01-01 00:03:04.070  4132  4132 W CamX    : [ WARN][FD     ] camxfdmanagernode.cpp:1051 FillInputBufferRequirments() if preview dimension is 0x0 , try to use Video dimension
+01-01 00:03:04.070  4132  4132 W CamX    : [ WARN][FD     ] camxfdmanagernode.cpp:1069 FillInputBufferRequirments() Failed to get preview dimension, result=0, preview=0x0, Using Base dimensions 640x480
+01-01 00:03:04.071  4132  4132 I CamX    : [CORE_CFG][FD     ] camxfdmanagernode.cpp:1095 FillInputBufferRequirments() Dimensions :Base[640x480], Preview [0x0], Request [640x480]
+01-01 00:03:04.071  4132  4132 W CamX    : [ WARN][FD     ] camxfdhwnode.cpp:370 ProcessingNodeFinalizeInputRequirement() if preview dimension is 0x0 , try to use Video dimension
+01-01 00:03:04.071  4132  4132 W CamX    : [ WARN][FD     ] camxfdhwnode.cpp:380 ProcessingNodeFinalizeInputRequirement() Failed to get preview dimension, result=0, preview=0x0, Using Base dimensions 640x480
+01-01 00:03:04.071  4132  4132 W CamX    : [ WARN][ISP    ] camxifenode.cpp:19944 ProcessingNodeFinalizeInputRequirement() Preview_IFE0_cam0, Output port 9 cannot determine aspect ratio for input idx: 0 0x0
+01-01 00:03:04.076  4132  4132 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9091 ProcessInputBufferRequirement() Node::Preview_IFE0_cam0 Input portId (6) does not match Buffer Negotiation portId (0)
+01-01 00:03:04.076  4132  4132 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9091 ProcessInputBufferRequirement() Node::Preview_IFE0_cam0 Input portId (3) does not match Buffer Negotiation portId (0)
+01-01 00:03:04.076  4132  4132 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9037 ProcessInputBufferRequirement() Node::Preview_Sensor0_cam0 didn't update "m_bufferNegotiationData.numInputPorts", setting it to 0
+01-01 00:03:04.094  4132  4132 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:714 FindBestSensorMode() Camera[0] Desired mode: optimal: [1000x1000] max: [16384x16384] min: [1000x1000] frameRate: 30.000000 sensorModeCaps: 00000001 forceMode:-1 SensorHDRExposureType:0, SensorRemosaicType:-1 isAEBSupported:0 numberOfPixelsPerColor:1, isAutoHDRRequired: 0
+01-01 00:03:04.094  4132  4132 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:879 FindBestSensorMode() Camera[0] Selected: modeIndex: 0 Usecase: 5, W=1000, H=1000, FPS:30, NumBatchedFrames:0, caps:1
+01-01 00:03:04.095  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxresourcemanager.cpp:1215 RegisterClient() Add client {Preview_0, 0x5598192970, 0, 0},  clients size: 1
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1493 Dump() --------------------
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1494 Dump()     Key      Cost   
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1495 Dump() --------------------
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {1, 0} :   100
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {2, 0} :   33
+01-01 00:03:04.095  4132  4132 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {5, 4} :   50
+01-01 00:03:04.104  4132  4522 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:4868 ProcessingNodeFinalizeInitialization() Preview_Sensor0_cam0: Sensor[0] SensorName:vd56g3_top_left SensorMode:0 (WxH:1000x1000, FPS:30.000000, caps:NORMAL )SyncMode:0
+01-01 00:03:04.106  4132  4522 I CamX    : [CORE_CFG][STATS_AF] camxcafioutil.cpp:7013 Initialize() cameraId 0 pDLibInit->pPipeline 0x559819f850 pNode 0x559840b520 pPDCallback (nil) pSensorModuleData 0x55952ef880 m_sensorPDExposureSwitchDelay 0 isQuadCFASensor 0
+01-01 00:03:04.106  4132  4522 I CamX    : [CORE_CFG][STATS_AF] camxcafioutil.cpp:7013 Initialize() cameraId 0 pDLibInit->pPipeline 0x559819f850 pNode 0x559840b520 pPDCallback 0x7f9f8d27c8 pSensorModuleData 0x55952ef880 m_sensorPDExposureSwitchDelay 0 isQuadCFASensor 0
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][STATS_AF] camxcafioutil.cpp:9041 PublishPDMaxBufferSize() Null pointer m_pNode 0x559840b520K m_pPDLib (nil)K or PDLibGetParam
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.106  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4862 ReadPDHWBufferDimensions() Preview_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:03:04.107  4132  4522 E CamX    : [ERROR][CORE   ] camxnodelegacy.h:3854 IsVSREnabled() Preview_IPE19_cam0 Failed to read VSR enable metaTag
+01-01 00:03:04.107  4132  4522 E CamX    : [ERROR][CORE   ] camxnodelegacy.h:3854 IsVSREnabled() Preview_IPE0_cam0 Failed to read VSR enable metaTag
+01-01 00:03:04.187  4132  4522 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_AutoFocus0_cam0
+01-01 00:03:04.188  4132  4522 I CamX    : [CORE_CFG][STATS_AF] camxcafioutil.cpp:7013 Initialize() cameraId 0 pDLibInit->pPipeline 0x559819f850 pNode 0x559840b520 pPDCallback 0x7f9f8d27c8 pSensorModuleData 0x55952ef880 m_sensorPDExposureSwitchDelay 0 isQuadCFASensor 0
+01-01 00:03:04.188  4132  4522 I CamX    : [CORE_CFG][STATS_AF] camxcafioutil.cpp:7013 Initialize() cameraId 0 pDLibInit->pPipeline 0x559819f850 pNode 0x559840b520 pPDCallback 0x7f9f8d27c8 pSensorModuleData 0x55952ef880 m_sensorPDExposureSwitchDelay 0 isQuadCFASensor 0
+01-01 00:03:04.188  4132  4522 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_AutoFocus0_cam0
+01-01 00:03:04.196  4132  4522 W CamX    : [ WARN][STATS_AF ] af_haf_alg_util.cpp:1326: af_alg_util_create CID:[0] memory not allocated to AdaptiveLensMap, check if enabled from settings and tuning
+01-01 00:03:04.212  4132  4522 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_AWB0_cam0
+01-01 00:03:04.214  4132  4522 W CamX    : [ WARN][STATS_AEC] camxcaecstatsprocessor.cpp:6310 GetCropWindow() Wrong input: HALCropWindow left(0),top(0) width,height = 0x0
+01-01 00:03:04.214  4132  4522 W CamX    : [ WARN][STATS  ] camxstatscommon.cpp:775 Get3ASyncType() Failed to retrieve 3A Sync tag for Node:Preview_Stats0_cam0
+01-01 00:03:04.217  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId22_DisplayFull] width=1000, height=1000, format=12, stride 1536 scanline 1008 GetTotalSize 2359296
+01-01 00:03:04.217  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId22_DisplayFull] width=1000, height=1000, format=12, stride 1536 scanline 512 GetTotalSize 2359296
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_0]-->[Preview_IFE0_cam0_OutputPortId22_DisplayFull] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=2, devices=0, 12, flags=0x1 width=1000, height=1000, format=12, size=2359296
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId23_DisplayDS4] width=250, height=250, format=18, stride 1280 scanline 128 GetTotalSize 163840
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_1]-->[Preview_IFE0_cam0_OutputPortId23_DisplayDS4] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=2, devices=0, 12, flags=0x1 width=250, height=250, format=18, size=163840
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId24_DisplayDS16] width=64, height=64, format=18, stride 512 scanline 32 GetTotalSize 16384
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_2]-->[Preview_IFE0_cam0_OutputPortId24_DisplayDS16] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=2, devices=0, 12, flags=0x1 width=64, height=64, format=18, size=16384
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId19_StatsTLBG] width=294912, height=1, format=6, stride 294912 scanline 1 GetTotalSize 294912
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_3]-->[Preview_IFE0_cam0_OutputPortId19_StatsTLBG] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=4, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=294912, height=1, format=6, size=294912
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId21_StatsAWBBG] width=1382400, height=1, format=6, stride 1382400 scanline 1 GetTotalSize 1384448
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_4]-->[Preview_IFE0_cam0_OutputPortId21_StatsAWBBG] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=4, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=1382400, height=1, format=6, size=1384448
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10732 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId29_StatsAWBBFW] width=10, height=32, format=23,raw stride 80 raw scanline 32 GetTotalSize 2560
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_5]-->[Preview_IFE0_cam0_OutputPortId29_StatsAWBBFW] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=10, height=32, format=23, size=2560
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId30_StatsAECBE] width=655360, height=1, format=6, stride 655360 scanline 1 GetTotalSize 655360
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_6]-->[Preview_IFE0_cam0_OutputPortId30_StatsAECBE] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=4, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=655360, height=1, format=6, size=655360
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId32_StatsGTMBHist] width=32768, height=1, format=6, stride 32768 scanline 1 GetTotalSize 32768
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_7]-->[Preview_IFE0_cam0_OutputPortId32_StatsGTMBHist] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=4, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=32768, height=1, format=6, size=32768
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId36_Unknown] width=32768, height=1, format=6, stride 32768 scanline 1 GetTotalSize 32768
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_8]-->[Preview_IFE0_cam0_OutputPortId36_Unknown] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=4, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=32768, height=1, format=6, size=32768
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId38_Unknown] width=65536, height=1, format=6, stride 65536 scanline 1 GetTotalSize 65536
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_9]-->[Preview_IFE0_cam0_OutputPortId38_Unknown] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=10, SelfTuned Immediate=4, Max=10, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=0, 0, flags=0x19 width=65536, height=1, format=6, size=65536
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId6_FD] width=640, height=480, format=3, stride 640 scanline 480 GetTotalSize 460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IFE0_cam0_OutputPortId6_FD] width=640, height=480, format=3, stride 640 scanline 240 GetTotalSize 460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_10]-->[Preview_IFE0_cam0_OutputPortId6_FD] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=6, Max=12, SelfTuned Immediate=4, Max=12, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=2, devices=0, 12, flags=0x9 width=640, height=480, format=3, size=460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IPE0_cam0_OutputPortId8_Display] width=1000, height=1000, format=4, stride 1024 scanline 1024 GetTotalSize 1572864
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IPE0_cam0_OutputPortId8_Display] width=1000, height=1000, format=4, stride 1024 scanline 512 GetTotalSize 1572864
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IPE19_cam0_OutputPortId8_Display] width=640, height=480, format=3, stride 640 scanline 480 GetTotalSize 460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_IPE19_cam0_OutputPortId8_Display] width=640, height=480, format=3, stride 640 scanline 240 GetTotalSize 460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_10]-->[Preview_IPE19_cam0_OutputPortId8_Display] : NumBufMgrs=2, type=CamX, heap=1, Original Immediate=6, Max=12, SelfTuned Immediate=2, Max=12, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=1, devices=12, 0, flags=0x19 width=640, height=480, format=3, size=460800
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10747 CreateOutputBufferManager() BufferMgrCreate ,[Preview_FDHw0_cam0_OutputPortId0_Results] width=576, height=1, format=6, stride 576 scanline 1 GetTotalSize 4096
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_5]-->[Preview_FDHw0_cam0_OutputPortId0_Results] : NumBufMgrs=2, type=CamX, heap=1, Original Immediate=6, Max=12, SelfTuned Immediate=2, Max=12, needDedicatedBuffers=0, lateBinding=1, numBatched=1, deviceCount=0, devices=0, 0, flags=0x48 width=576, height=1, format=6, size=4096
+01-01 00:03:04.218  4132  4522 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Preview_0_cam_0 status is now PipelineStatus::BUFFER_PROPERTIES_FINALIZED
+01-01 00:03:04.219  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Preview_0_cam_0 status is now PipelineStatus::PRE_FINALIZATION_INPROGRESS
+01-01 00:03:04.219  4132  4132 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:2963 Initialize() Session (0x55996a07e0) Initialized Preview
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag com.qti.chi.qllControl.QLLConfiguration
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag com.qti.chi.qllControl.QLLConfiguration
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AEC_IQTrigger
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AWB_IQTrigger
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AF_IQTrigger
+01-01 00:03:04.221  4132  4526 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Preview_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_Reserve_IQTrigger
+01-01 00:03:04.221  4132  4526 E CamX    : [ERROR][ISP    ] camxifenode.cpp:28242 UpdateActiveSensorDataInTriggerData() sensor full: (1000 x 1000), calculated resolution: (1124 x 1000)
+01-01 00:03:04.223  4132  4526 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwIFE phDevice=0x10102 name:/dev/v4l-subdev1 dIndex 0 hIndex 2 sessionName Preview
+01-01 00:03:04.224  4132  4526 W CamX    : [ WARN][FD     ] camxfdmanagernode.cpp:603 PostPipelineCreate() GetCameraConfiguration failed status 6 try later..
+01-01 00:03:04.226  4132  4526 I CamX    : [CORE_CFG][FD     ] camxfdutils.cpp:549 LoadFDTuningData() Loading of /usr/lib/camera/fdconfigpreview.bin successful !
+01-01 00:03:04.226  4132  4526 W CamX    : [ WARN][FD     ] camxfdutils.cpp:371 GetFDConfig() Static min face size setting is not supported
+01-01 00:03:04.226  4132  4172 I CamX    : [CORE_CFG][FD     ] camxdlfdenginelibwrapper.cpp:224 FDELibWrapperCreateDLFDV73Handle() Registering DLFD V2 V73 640x480 network, current frameAspectRatio 1.333333
+01-01 00:03:04.231  4132  4530 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:3580: Successfully opened /dsp/cdsp/fastrpc_shell_3, domain 3
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:866 SetConfigIODataUtil() node Preview_IPE19_cam0, extraPassNum 0 firmwarePortId 0 format 3, width 640, height 480, ubwc version 0, lossy 0, fromdownscale 0, buffer size 460800, icaMaxUpscalingQ16 0
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:866 SetConfigIODataUtil() node Preview_IPE19_cam0, extraPassNum 0 firmwarePortId 3 format 18, width 160, height 120, ubwc version 0, lossy 0, fromdownscale 0, buffer size 49152, icaMaxUpscalingQ16 0
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE19_cam0, Input, firmwarePortId 1 format 18, width 160, height 120, ubwc version 0, lossy 0, fromdownscale 0, buffer size 49152
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE19_cam0, Output, firmwarePortId 8 format 3, width 640, height 480, ubwc version 0, lossy 0, fromdownscale 0, buffer size 460800
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE19_cam0, Input, firmwarePortId 0 format 3, width 640, height 480, ubwc version 0, lossy 0, fromdownscale 0, buffer size 460800
+01-01 00:03:04.235  4132  4528 I CamX    : [CORE_CFG][MEMMGR ] camxmempoolgroup.cpp:489 RegisterBufferManager() [MPG_11]-->[Preview_IPE19_cam0_Intermediate_0_ExtraToMain_3-1] : NumBufMgrs=1, type=CamX, heap=1, Original Immediate=1, Max=1, SelfTuned Immediate=0, Max=1, needDedicatedBuffers=1, lateBinding=0, numBatched=1, deviceCount=1, devices=12, 0, flags=0x9 width=160, height=120, format=18, size=49152
+01-01 00:03:04.238  4132  4527 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE0_cam0, Output, firmwarePortId 8 format 4, width 1000, height 1000, ubwc version 0, lossy 0, fromdownscale 0, buffer size 1572864
+01-01 00:03:04.238  4132  4527 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE0_cam0, Input, firmwarePortId 2 format 18, width 64, height 64, ubwc version 0, lossy 0, fromdownscale 0, buffer size 16384
+01-01 00:03:04.238  4132  4527 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE0_cam0, Input, firmwarePortId 1 format 18, width 250, height 250, ubwc version 0, lossy 0, fromdownscale 0, buffer size 163840
+01-01 00:03:04.238  4132  4527 I CamX    : [CORE_CFG][PPROC  ] camxipeutils.cpp:773 SetConfigIODataUtil() node Preview_IPE0_cam0, Input, firmwarePortId 0 format 12, width 1000, height 1000, ubwc version 2, lossy 0, fromdownscale 0, buffer size 2359296
+01-01 00:03:04.242  4132  4528 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwICP phDevice=0x3d0103 name:/dev/v4l-subdev21 dIndex 12 hIndex 3 sessionName Preview
+01-01 00:03:04.243  4132  4169 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwImageSensor phDevice=0xbf0101 name:/dev/v4l-subdev14 dIndex 14 hIndex 1 sessionName Preview
+01-01 00:03:04.243  4132  4169 I CamX    : [CORE_CFG][SENSOR ] camxsensornode.cpp:9403 AcquireDevice() Preview_Sensor0_cam0: Sensor[0] [vd56g3_top_left] Acquired Sensor, hCSL: 0x5d0200 hSensorDevice: 0xbf0101
+01-01 00:03:04.243  4132  4527 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwICP phDevice=0x3a0104 name:/dev/v4l-subdev21 dIndex 12 hIndex 4 sessionName Preview
+01-01 00:03:04.243  4132  4169 W CamX    : [ WARN][CSL    ] camxcslhwinternal.cpp:4017 CSLHwInternalDefaultSubmit() ioctl failed for fd=25 index 14
+01-01 00:03:04.243  4132  4169 E CamX    : [ERROR][CSL    ] camxcslhw.cpp:2719 CSLSubmitHW() Error Submitting device, CSLHandle 6095360Devicehandle 12517633 DeviceIndex: 14 idx: 0
+01-01 00:03:04.243  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9872 LoadSensorInitConfigCmd() Sensor[0] initialization failed, result: CamxResultEFailed
+01-01 00:03:04.243  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9703 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:03:04.243  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:10307 CreateSensorSubmodules() Sensor[0] Creating submodules failed due to failed sensor configuration
+01-01 00:03:04.243  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9703 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:03:04.244  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:5863 LoadSensorConfigCmds() Sensor[0] Initialization failed, cannot configure sensor!
+01-01 00:03:04.244  4132  4169 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9703 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:03:04.244  4132  4526 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Preview_0_cam_0 status is now PipelineStatus::PRE_FINALIZED
+01-01 00:03:04.257  4132  4530 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:3683: Created user PD on domain 3, debug_trace 0x0, enabled attr=> RPC timeout:0, Debug Mode:N, CRC check:N, Unsigned:N, Signed:Y, Adapt QOS:N, PD dump: (Config:N, Debug:N), Perf: (Kernel:N, DSP:N), Iregion:N, QTF Tracing:N, UAF heap:N userPD initmem length:0x3
+01-01 00:03:04.258  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/listener_android.c:116: listener thread starting
+01-01 00:03:04.259  4132  4530 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_perf.c:273: fastrpc_perf_init: enabled systrace 0x0 and RPC traces (kernel 0, dsp 0) with frequency 1000
+01-01 00:03:04.259  4132  4534 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/log_config.c:348: file_watcher_thread starting for domain 3
+01-01 00:03:04.259  4132  4534 W camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/log_config.c:358:file_watcher_thread: Couldn't find file camx-hal3-test.farf, errno (No such file or directory)
+01-01 00:03:04.260  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:467: is_reverse_handle_opened: reverse module apps_std already found with handle 0x9d9856f0 (idx 0) refs 2
+01-01 00:03:04.260  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:701: open_mod_table_open_from_static: reverse module apps_std opened with handle 0x9d9856f0 (idx 0)
+01-01 00:03:04.260  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/apps_std_imp.c:1004: Successfully opened file libbitml_nsp_v2_skel.so
+01-01 00:03:04.266  4132  4532 E camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:858: Error 0x2: open_mod_table_handle_invoke failed for handle:0x9d9856f0, sc:0x13050100
+01-01 00:03:04.266  4132  4532 E camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:858: Error 0x2: open_mod_table_handle_invoke failed for handle:0x9d9856f0, sc:0x13050100
+01-01 00:03:04.268  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:467: is_reverse_handle_opened: reverse module apps_mem already found with handle 0x9d9857f0 (idx 1) refs 2
+01-01 00:03:04.268  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/mod_table.c:701: open_mod_table_open_from_static: reverse module apps_mem opened with handle 0x9d9857f0 (idx 0)
+01-01 00:03:04.304  4132  4132 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1519 configure_streams()  FINAL stream[0] = 0x5596f57730 - info:
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1522 configure_streams()             format       : 35, HAL_PIXEL_FORMAT_YCbCr_420_888
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1524 configure_streams()             width        : 1000
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1526 configure_streams()             height       : 1000
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1529 configure_streams()             stream_type  : 00000000, CAMERA3_STREAM_OUTPUT
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1531 configure_streams()             usage        : 00060033
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1535 configure_streams()             max_buffers  : 12
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1545 configure_streams()             rotation     : 00000000, CAMERA3_STREAM_ROTATION_0
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1548 configure_streams()             data_space   : 00000000, HAL_DATASPACE_UNKNOWN
+01-01 00:03:04.304  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1550 configure_streams()             priv         : 0x55968aae30
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1553 configure_streams()             streamUsecase         : 0
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1556 configure_streams()             hdr_profile           : 00000000, HDR_PROFILE_UNKNOWN
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1559 configure_streams()             reserved[0]         : 0x55968aae38
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1561 configure_streams()             reserved[1]         : (nil)
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1576 configure_streams()    pHalStream: 0x55968aae38 format : 0x23, overrideFormat : 0x23 consumer usage: 0, producer usage: 60033
+01-01 00:03:04.305  4132  4132 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1584 configure_streams() HalOp: End CONFIG, logicalCameraId: 0, cameraId: 0
+01-01 00:03:04.305  4132  4132 D QCamxHAL3TestDevice: configureStreams 1016:[CAMERAID] Creating a pool of  buffers for stream 0 max_buffers 12
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 98 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 102 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.305  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 106 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 110 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 114 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.306  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 118 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 122 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 126 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.307  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 130 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 134 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 138 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.308  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 142 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.309  4132  4132 E QCamxHAL3TestDevice: configureStreams 1025:size for stream 0x5596f57730 size 12 
+01-01 00:03:04.309  4132  4132 I QCamxHAL3TestDevice: constructDefaultRequestSettings 1126:AECOMP ae_comp_range min = -12, max = 12
+01-01 00:03:04.309  4132  4132 I QCamxHAL3Test: main 394:CAM0>>
+01-01 00:03:04.309  4132  4535 I QCamxHAL3TestDevice: doCapturePostProcess 157:doCapturePostProcess capture result handle thread start
+01-01 00:03:04.309  4132  4536 I QCamxHAL3TestDevice: AllocateGbmBuffer 625:GBM_FORMAT_YCbCr_420_888
+01-01 00:03:04.309  4132  4536 I QCamxHAL3TestDevice: AllocateGbmBuffer 690:gbm format = 5000002f, gbm usage = 660000
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: AllocateGbmBuffer 719:FD = 146 Format: 5000000f => width: 1000 height:1024 stride:1024 
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: AllocateGbmBuffer 746:buffer object size:1572864
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: GetIndexForCameraExternalImageFormat 554:format 23 usage 60033
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: GetPlaneLayoutInfo 603:index -1 stride alignment 64 scanline align 64 wxh 1024x1024
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: AllocateGbmBuffer 781: stride:1024 slice 1024
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: ProcessOneCaptureRequest 1380:output_buffers[0]:0x7f340ba4b0
+01-01 00:03:04.310  4132  4536 I QCamxHAL3TestDevice: ProcessOneCaptureRequest 1401:AECOMP frame:0 ae_comp value = 0
+01-01 00:03:04.310  4132  4536 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1693 process_capture_request() logical camera id 0, frame_number 0, settings 0x7f34162b10, priv_settings (nil), priv_result (nil), num_priv_phy_result 0, num_output_buffers 1
+01-01 00:03:04.310  4132  4536 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:03:04.310  4132  4536 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:03:04.310  4132  4536 I CHIUSECASE: [REQMAP ] chxadvancedcamerausecase.cpp:3890 ExecuteCaptureRequest() frame: 0  <==>  (chiFrameNum) chiOverrideFrameNum: 0
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1493 Dump() --------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1494 Dump()     Key      Cost   
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1495 Dump() --------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {1, 0} :   100
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {2, 0} :   33
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1504 Dump()   {5, 4} :   50
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 67
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 100
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 0
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 50
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:180 DumpState() 
+01-01 00:03:04.310  4132  4536 E CamX    : 
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:181 DumpState() client {Preview_0, 0x5598192970}
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:182 DumpState() -------------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:183 DumpState()     Key     Allocation
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:184 DumpState() -------------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {1, 0} :   100
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {2, 0} :   33
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {5, 4} :   50
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:478 DumpState() 
+01-01 00:03:04.310  4132  4536 E CamX    : 
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:479 DumpState() reservation Id: 0
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:480 DumpState() ----------------------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:481 DumpState()     Key      reservation
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:482 DumpState() ----------------------------------
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:491 DumpState()   {1, 0} :     0
+01-01 00:03:04.310  4132  4536 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:491 DumpState()   {5, 4} :     0
+01-01 00:03:04.311  4132  4536 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:1052 PrepareStreamOn() Sensor[0] not configured, curConfigStatus: 6
+01-01 00:03:04.311  4132  4536 I CamX    : [CORE_CFG][SENSOR ] camxsensornode.cpp:1065 PrepareStreamOn() Sensor[0] [vd56g3_top_left] ConfigStatus:6 isEarlyPCREnabled:0
+01-01 00:03:04.311  4132  4536 E CamX    : [ERROR][CORE   ] camxpipeline.cpp:3395 FinalizePipeline() Pipeline::Preview_0_cam_0 PrepareStreamOn failed with CamxResultEFailed
+01-01 00:03:04.311  4132  4536 E CamX    : [ERROR][CORE   ] camxsession.cpp:4059 ProcessCaptureRequest() Preview: FinalizePipeline failed pipelineIndex 0 PipelineName: Previewresult: CamxResultEFailed
+01-01 00:03:04.311  4132  4536 E CamX    : [ERROR][CHI    ] camxchicontext.cpp:6889 SubmitRequest() Request 0 failed when submitting requests.
+01-01 00:03:04.311  4132  4536 E CamX    : [ERROR][CHI    ] camxchi.cpp:3226 ChiSubmitPipelineRequest() Submit request failed with error 1.
+01-01 00:03:04.311  4132  4536 E CHIUSECASE: [ERROR  ] chxadvancedcamerausecase.cpp:3896 ExecuteCaptureRequest() Submit request failure for session:0
+01-01 00:03:04.311  4132  4536 E CHIUSECASE: [ERROR  ] chxadvancedcamerausecase.cpp:3918 ExecuteCaptureRequest() Defer thread or submit request failure for session:0
+01-01 00:03:04.311  4132  4536 E CHIUSECASE: [ERROR  ] chxusecase.cpp:833 ProcessCaptureRequest() ECR Errored Out! Usecase:1 cameraId:0 in state: CamxResultEFailed
+01-01 00:03:04.311  4132  4536 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1778 process_capture_request() logical camera id 0, frame_number 0, num_output_buffers 1, resultOut -19
+01-01 00:03:04.311  4132  4536 E QCamxHAL3TestDevice: ProcessOneCaptureRequest 1406:process_capture_quest failed, frame:0
+01-01 00:03:04.311  4132  4536 I QCamxHAL3TestLog: signal_handler 88:=========>>>catch signal 11 <<< from tid:4536====== 
+01-01 00:03:04.311  4132  4536 I QCamxHAL3TestLog: signal_handler 103:Run cmd: cat /proc/4132/maps | grep '/usr' | grep 'r-xp' | tee /data/misc/camera/trace_4132[11].txt 
+01-01 00:03:04.333  4132  4536 I QCamxHAL3TestLog: signal_handler 106:Dump stack start... 
+01-01 00:03:04.333  4132  4536 I QCamxHAL3TestLog: dump 58:backtrace() returned 8 addresses 
+01-01 00:03:04.333  4132  4536 I QCamxHAL3TestLog: dump 67:[00] camx-hal3-test(_ZN16QCamxHAL3TestLog4dumpEPc+0x34) [0x558b474284] 
+01-01 00:03:04.337  4132  4536 I QCamxHAL3TestLog: dump 67:[01] camx-hal3-test(_ZN16QCamxHAL3TestLog14signal_handlerEi+0x1e4) [0x558b474634] 
+01-01 00:03:04.340  4132  4536 I QCamxHAL3TestLog: dump 67:[02] /lib/libcamxcommonutils.so(_ZN4CamX13SignalCatcherEiP9siginfo_tPv+0x300) [0x7f9d491290] 
+01-01 00:03:04.342  4132  4536 I QCamxHAL3TestLog: dump 67:[03] linux-vdso.so.1(__kernel_rt_sigreturn+0) [0x7fa0eb684c] 
+01-01 00:03:04.345  4132  4536 I QCamxHAL3TestLog: dump 67:[04] camx-hal3-test(_ZN19QCamxHAL3TestDevice24ProcessOneCaptureRequestEPiS0_+0xa68) [0x558b464598] 
+01-01 00:03:04.348  4132  4536 I QCamxHAL3TestLog: dump 67:[05] camx-hal3-test(_Z23doprocessCaptureRequestPv+0x37c) [0x558b464a9c] 
+01-01 00:03:04.351  4132  4536 I QCamxHAL3TestLog: dump 67:[06] /lib/aarch64-linux-gnu/libc.so.6(+0x7d5c8) [0x7f9fd5d5c8] 
+01-01 00:03:04.354  4132  4536 I QCamxHAL3TestLog: dump 67:[07] /lib/aarch64-linux-gnu/libc.so.6(+0xe5edc) [0x7f9fdc5edc] 
+01-01 00:03:04.357  4132  4536 I QCamxHAL3TestLog: signal_handler 108:Dump stack end... 
+01-01 00:03:04.357  4132  4536 I QCamxHAL3TestLog: signal_handler 113:Run cmd: ls -l /proc/4132/fd > /data/misc/camera/fd_4132[11].txt 
+01-01 00:03:04.359  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/apps_std_imp.c:984: Successfully opened file /dsp/cdsp/libc++.so.1
+01-01 00:03:04.370  4132  4536 I QCamxHAL3TestLog: signal_handler 119:Run cmd: cat /proc/4132/maps > /data/misc/camera/maps_4132[11].txt 
+01-01 00:03:04.378  4132  4536 I QCamxHAL3TestLog: signal_handler 125:Run cmd: cat /proc/meminfo > /data/misc/camera/meminfo_4132[11].txt 
+01-01 00:03:04.382  4132  4532 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/apps_std_imp.c:984: Successfully opened file /dsp/cdsp/libc++abi.so.1
+01-01 00:03:04.384  4132  4536 I QCamxHAL3TestLog: signal_handler 131:Run cmd: ps -T > /data/misc/camera/ps_4132[11].txt 
+01-01 00:03:04.417  4132  4536 I QCamxHAL3TestLog: signal_handler 137:Run cmd: top -b -n 1 > /data/misc/camera/top_4132[11].txt 
+01-01 00:03:04.429  4132  4530 I camx-hal3-test: /local/mnt/workspace/lnxbuild/project/trees_in_use/free_tree_dir/checkout/build-qti-distro-ubuntu-fullstack-perf/tmp-glibc/work/kalama-oe-linux/adsprpc/13.0-r1/adsprpc/src/fastrpc_apps_user.c:1705: remote_handle64_open: Successfully opened handle 0x7f28000ff0 (remote handle 0x30841c20) for file:///libbitml_nsp_v2_skel.so?bitml_nsp_v2_domains_skel_handle_invoke&_modver=1.0&_dom=cdsp on domain 3 (spawn time 0 us, load time 0 us), num of open handles: 
