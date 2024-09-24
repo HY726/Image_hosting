@@ -1,0 +1,728 @@
+___________________________________
+gst-launch-1.0 --gst-debug=2 -e qtiqmmfsrc name=camsrc camera=0 ! video/x-bayer,format=mono,width=1000,height=1000,framerate=30/1 ! multifilesink location="/data/frame_%d.raw"
+___________________________________
+
+01-01 00:49:29.473   977  1561 I RecorderCameraSource: CameraSource: Enter
+01-01 00:49:29.473   977  1561 I RecorderCameraSource: CameraSource: Exit
+01-01 00:49:29.473   977  1561 I RecorderCameraSource: CreateCameraSource: CameraSource Instance Created Successfully(0x7f6c176f90)
+01-01 00:49:29.473   977  1561 I RecorderImpl: Init: CameraSource Instance Created Successfully!
+01-01 00:49:29.473   977  1561 V HAL     : loaded HAL id=camera path=/usr/lib/hw/camera.qcom.so hmi=0x7f870ed498 handle=0x5598df7400
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int64 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int64 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.474 17951 17951 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 00:49:29.476   977  1561 I RecorderService: StartCamera: Enter client_id(1)
+01-01 00:49:29.476   977  1561 I RecorderCameraSource: StartCamera: Camera Id(0) to open!
+01-01 00:49:29.476   977  1561 I RecorderCameraContext: CameraContext: Enter
+01-01 00:49:29.476   977  1561 V HAL     : loaded HAL id=camera path=/usr/lib/hw/camera.qcom.so hmi=0x7f870ed498 handle=0x5598df7400
+01-01 00:49:29.476   977  1561 I CameraAdaptor: Initialize: Camera Module author: Qualcomm Technologies, Inc., version: 256 name: QTI Camera HAL
+01-01 00:49:29.476   977  1561 I CameraAdaptor: Initialize: Number of cameras: 1
+01-01 00:49:29.509   977  1561 I RecorderCameraContext: CameraContext: Exit
+01-01 00:49:29.509   977  1561 W RecorderCameraContext: OpenCamera: Invalid sensor mode(-1) received, falling back to auto mode selection
+01-01 00:49:29.509   977  1561 I RecorderCameraContext: OpenCamera: PCR FRC disable
+01-01 00:49:29.510   977  1561 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1496 UpdateHDMIResolution()  HDMI Device not present 
+01-01 00:49:29.513   977  1561 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:493 open() HalOp: Begin OPEN, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1501 Dump() --------------------
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1502 Dump()     Key      Cost   
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1503 Dump() --------------------
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {1, 0} :   100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 0
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:479 DumpState() 
+01-01 00:49:29.513   977  1561 E CamX    : 
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:480 DumpState() reservation Id: 0
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:481 DumpState() ----------------------------------
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:482 DumpState()     Key      reservation
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:483 DumpState() ----------------------------------
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:492 DumpState()   {1, 0} :     100
+01-01 00:49:29.513   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1501 Dump() --------------------
+01-01 00:49:29.514   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1502 Dump()     Key      Cost   
+01-01 00:49:29.514   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1503 Dump() --------------------
+01-01 00:49:29.514   977  1561 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {5, 4} :   50
+01-01 00:49:29.514   977  1561 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:2077 ExtendOpen() Using XML for Logical Cameras -- file: kailua_c8550_dk.xml
+01-01 00:49:29.514   977  1561 I CamX    : [CORE_CFG][HAL    ] camxhal3module.cpp:1156 ProcessCameraOpen() Number of cameras opened 1
+01-01 00:49:29.516   977  1561 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:541 open() HalOp: End OPEN, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.519   977  1561 I CamX    : [CORE_CFG][HAL    ] camxthermalmanager.cpp:96 Initialize() Successfully registered with the Thermal Engine
+01-01 00:49:29.519   977  1561 I CamX    : [CORE_CFG][HAL    ] camxthermalmanager.cpp:145 RegisterHALDevice() Registered pHALDevice=0x7f6c1bc660 CameraId=0
+01-01 00:49:29.520   977  1561 E CamX    : [ERROR][HAL    ] camxhal3module.cpp:1496 UpdateHDMIResolution()  HDMI Device not present 
+01-01 00:49:29.520   977  1561 I RecorderCameraContext: OpenCamera: Non-zsl snapshot capture request created successfully!
+01-01 00:49:29.520   977  1561 I RecorderCameraSource: StartCamera: Camera(0) opened successfully!
+01-01 00:49:29.520   977  1561 I RecorderImpl: StartCamera: Number of clients connected(1)
+01-01 00:49:29.520   977  1561 I RecorderImpl: StartCamera client_id(1): number of cameras(1) owned!
+01-01 00:49:29.520   977  1561 I RecorderImpl: StartCamera: client_id(1): camera_id(0)
+01-01 00:49:29.520   977  1561 I RecorderService: StartCamera: Exit client_id(1)
+01-01 00:49:29.523 17951 17951 I Recorder: GetCameraCharacteristics: Enter
+01-01 00:49:29.523   977   977 I RecorderService: GetCameraCharacteristics: Enter client_id(1)
+01-01 00:49:29.523   977   977 I RecorderService: GetCameraCharacteristics: Exit client_id(1)
+01-01 00:49:29.523 17951 17951 I Recorder: GetCameraCharacteristics: Exit
+01-01 00:49:29.524 17951 17951 I Recorder: GetCameraCharacteristics: Enter
+01-01 00:49:29.524   977   977 I RecorderService: GetCameraCharacteristics: Enter client_id(1)
+01-01 00:49:29.524   977   977 I RecorderService: GetCameraCharacteristics: Exit client_id(1)
+01-01 00:49:29.524 17951 17951 I Recorder: GetCameraCharacteristics: Exit
+01-01 00:49:29.524   977   977 I RecorderCameraSource: CreateTrackSource: Normal stream should be create.
+01-01 00:49:29.525   977   977 I RecorderCameraSource: TrackSource: TrackSource (0x0x5598eb9920)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: CameraPort: Enter
+01-01 00:49:29.525   977   977 I RecorderCameraContext: CameraPort: Exit (0x0x559a2ce9a0)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: Init: track_id(01010001) total buffer count(14)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: Init: Camera Device Stream(0) is created Succussfully withflag(0x700) and format(0x25)!
+01-01 00:49:29.525   977   977 I RecorderCameraContext: Init: track_id(01010001) is mapped to camera stream_id(0)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: CreateStream: Global Streaming request created successfully!
+01-01 00:49:29.525   977   977 I RecorderCameraContext: CreateStream: Number of Active ports=1
+01-01 00:49:29.525   977   977 I RecorderCameraSource: Init: TrackSource(0x0x5598eb9920)(1000x1000) and Camera Device Stream  Created Successfully for Track(1010001)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.525   977   977 I RecorderCameraContext: AddConsumer: Consumer(0x559a2a4490) added to track_id(16842753)
+01-01 00:49:29.525   977   977 I RecorderImpl: CreateVideoTrack: client_id(1):session_id(1), TrackSource for client_track_id(1):service_track_id(1010001) Added Successfully in CameraSource!
+01-01 00:49:29.525 17951 17951 I Recorder: GetCameraParam: Enter
+01-01 00:49:29.525   977   977 I RecorderService: GetCameraParam: Enter client_id(1)
+01-01 00:49:29.525   977   977 I RecorderService: GetCameraParam: Exit client_id(1)
+01-01 00:49:29.525 17951 17951 I Recorder: GetCameraParam: Exit
+01-01 00:49:29.525 17951 17951 I Recorder: SetCameraParam: Enter
+01-01 00:49:29.525   977   977 I RecorderService: SetCameraParam: Enter client_id(1)
+01-01 00:49:29.525   977   977 I RecorderService: SetCameraParam: Exit client_id(1)
+01-01 00:49:29.525 17951 17951 I Recorder: SetCameraParam: Exit
+01-01 00:49:29.526 17951 17951 I Recorder: GetCameraParam: Enter
+01-01 00:49:29.526   977   977 I RecorderService: GetCameraParam: Enter client_id(1)
+01-01 00:49:29.526   977   977 I RecorderService: GetCameraParam: Exit client_id(1)
+01-01 00:49:29.526 17951 17951 I Recorder: GetCameraParam: Exit
+01-01 00:49:29.526 17951 17951 E VendorTagDescriptor: lookupTag: Section 'org.codeaurora.qcamera3.ir_led' does not exist.
+01-01 00:49:29.526 17951 17951 E VendorTagDescriptor: lookupTag: Section 'org.codeaurora.qcamera3.multicam_exptime' does not exist.
+01-01 00:49:29.526 17951 17951 E VendorTagDescriptor: lookupTag: Section 'org.codeaurora.qcamera3.multicam_exptime' does not exist.
+01-01 00:49:29.526 17951 17951 I Recorder: SetCameraParam: Enter
+01-01 00:49:29.527   977   977 I RecorderService: SetCameraParam: Enter client_id(1)
+01-01 00:49:29.527   977   977 I RecorderService: SetCameraParam: Exit client_id(1)
+01-01 00:49:29.527 17951 17951 I Recorder: SetCameraParam: Exit
+01-01 00:49:29.528   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.528   977   977 I RecorderCameraContext: Start: track_id(1010001):camera stream(0) to start!
+01-01 00:49:29.528   977   977 I RecorderCameraContext: UpdateRequest: Number of active_ports(1)
+01-01 00:49:29.528   977   977 I RecorderCameraContext: UpdateRequest: cam_stream_id(0)
+01-01 00:49:29.528   977   977 I RecorderCameraContext: UpdateRequest: CameraPort(0x0x559a2ce9a0):camera_stream_id(0) is ready to start!
+01-01 00:49:29.528   977   977 I RecorderCameraContext: UpdateRequest: Number of streams(1) to start
+01-01 00:49:29.528   977   977 I RecorderCameraContext: UpdateRequest: set frame rate to 30 fps
+01-01 00:49:29.528   977   977 I CameraAdaptor: ConfigureStreamsLocked: operation_mode: 0x0 
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1420 configure_streams() HalOp: Begin CONFIG: 0x7f6c1bc670, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1443 configure_streams()   stream[0] = 0x55990577c8 - info:
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1446 configure_streams()             format       : 37, HAL_PIXEL_FORMAT_RAW10
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1448 configure_streams()             width        : 1000
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1450 configure_streams()             height       : 1000
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1453 configure_streams()             stream_type  : 00000000, CAMERA3_STREAM_OUTPUT
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1455 configure_streams()             usage        : 00010033
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1457 configure_streams()             max_buffers  : 14
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1460 configure_streams()             rotation     : 00000000, CAMERA3_STREAM_ROTATION_0
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1463 configure_streams()             data_space   : 00000000, HAL_DATASPACE_UNKNOWN
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1465 configure_streams()             priv         : (nil)
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1467 configure_streams()        physical_camera_id         : (null)
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1469 configure_streams()        groupID         : -1
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1472 configure_streams()             streamUsecase         : 0
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1475 configure_streams()             hdr_profile           : 00000000, HDR_PROFILE_UNKNOWN
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1478 configure_streams()             reserved[0]         : (nil)
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1480 configure_streams()             reserved[1]         : (nil)
+01-01 00:49:29.528   977   977 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:1558 CheckValidStreamConfig() format:37 max Res(960 x 720) requested Res(1000 x 1000) 
+01-01 00:49:29.529   977   977 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:11290 SetDeviceHDRMode() Set HDR mode to:0 for physical cam:0
+01-01 00:49:29.529   977   977 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:11378 SetDeviceHDRNumExposure() Set HDR numHDRExposure to:1 for physical cam:0
+01-01 00:49:29.529   977   977 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:10808 ConfigureHDRInformation() Logical camera:0 HDRMode set to:0
+01-01 00:49:29.529   977   977 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:6021 InitializeOverrideSession() Session_parameters FPS range 30:30, previewFPS 0, videoFPS 0 BatchSize: 1 HALOutputBufferCombined 0 FPS: 30 SkipPattern: 1, LogicalCameraId = 0 selected use case = 1  count 1 MFHDR_enabled 0 m_isNZSLModeSwitchUsecase: 0 m_isHFRInternalSwitchUsecase: 0
+01-01 00:49:29.536   977   977 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:714 FindBestSensorMode() Camera[0] Desired mode: optimal: [1000x1000] max: [1000x1000] min: [1000x1000] frameRate: 30.000000 sensorModeCaps: 00000001 forceMode:-1 SensorHDRExposureType:0, SensorRemosaicType:-1 isAEBSupported:0 numberOfPixelsPerColor:1, isAutoHDRRequired: 0
+01-01 00:49:29.536   977   977 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:879 FindBestSensorMode() Camera[0] Selected: modeIndex: 0 Usecase: 5, W=1000, H=1000, FPS:30, NumBatchedFrames:0, caps:1
+01-01 00:49:29.541   977   977 I CHIUSECASE: [CORE_CFG ] chxpipeline.cpp:352 CreateDescriptor() Pipeline[Raw] pipeline pointer 0x559b4c3850 numInputs=0, numOutputs=1 stream w x h: 1000 x 1000 format: 37, numBatchedFrames: 1, HALOutputBufferCombined: 0 maxFPSValue: 30 cameraId: 0 logicalCameraId:0
+01-01 00:49:29.544   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2499 CreateNodes() Topology: Creating Pipeline Raw_0_cam_0, numNodes 2 isSensorInput 1 isRealTime 1
+01-01 00:49:29.545   977   977 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:10239 GetSensorModuleIndexes() Sensor[0] GetDeviceIndex failure for Flash, result: CamxResultSuccess
+01-01 00:49:29.545   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2586 CreateNodes() Topology::Raw_0_cam_0 Node::Raw_Sensor0_cam0 Type 0 numInputPorts 0 numOutputPorts 2 Sensor: Real
+01-01 00:49:29.549   977   977 I CamX    : [CORE_CFG][CORE   ] camxnodelegacy.cpp:851 InitializeSinkPortBufferProperties() Topology: Node::Raw_IFE0_cam0 has a sink port id 8 using format 9 dim 1000x1000, stream 0x55990577c8
+01-01 00:49:29.555   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2586 CreateNodes() Topology::Raw_0_cam_0 Node::Raw_IFE0_cam0 Type 65536 numInputPorts 3 numOutputPorts 1 Sensor: Real
+01-01 00:49:29.555   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2697 CreateNodes() Topology: Pipeline[Raw_0_cam_0] Link: Node::Raw_Sensor0_cam0(outPort 0) --> (inPort 2) (1 / 3) Node::Raw_IFE0_cam0 using format 0
+01-01 00:49:29.555   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2697 CreateNodes() Topology: Pipeline[Raw_0_cam_0] Link: Node::Raw_Sensor0_cam0(outPort 1) --> (inPort 6) (2 / 3) Node::Raw_IFE0_cam0 using format 0
+01-01 00:49:29.555   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2697 CreateNodes() Topology: Pipeline[Raw_0_cam_0] Link: Node::Raw_Sensor0_cam0(outPort 1) --> (inPort 3) (3 / 3) Node::Raw_IFE0_cam0 using format 0
+01-01 00:49:29.555   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:2750 CreateNodes() Topology: Pipeline[Raw_0_cam_0] Link: Node::Raw_IFE0_cam0(outPort 8) --> (Sink Buffer with Format 9)
+01-01 00:49:29.562   977   977 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9091 ProcessInputBufferRequirement() Node::Raw_IFE0_cam0 Input portId (6) does not match Buffer Negotiation portId (0)
+01-01 00:49:29.562   977   977 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9091 ProcessInputBufferRequirement() Node::Raw_IFE0_cam0 Input portId (3) does not match Buffer Negotiation portId (0)
+01-01 00:49:29.562   977   977 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:9037 ProcessInputBufferRequirement() Node::Raw_Sensor0_cam0 didn't update "m_bufferNegotiationData.numInputPorts", setting it to 0
+01-01 00:49:29.562   977   977 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:714 FindBestSensorMode() Camera[0] Desired mode: optimal: [1000x1000] max: [16384x16384] min: [1000x1000] frameRate: 30.000000 sensorModeCaps: 00000001 forceMode:-1 SensorHDRExposureType:0, SensorRemosaicType:-1 isAEBSupported:0 numberOfPixelsPerColor:1, isAutoHDRRequired: 0
+01-01 00:49:29.562   977   977 I CHIUSECASE: [CORE_CFG ] chxsensorselectmode.cpp:879 FindBestSensorMode() Camera[0] Selected: modeIndex: 0 Usecase: 5, W=1000, H=1000, FPS:30, NumBatchedFrames:0, caps:1
+01-01 00:49:29.564   977   977 I CamX    : [CORE_CFG][CORE   ] camxresourcemanager.cpp:1216 RegisterClient() Add client {Raw_0, 0x559b4e5d90, 0, 0},  clients size: 1
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1501 Dump() --------------------
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1502 Dump()     Key      Cost   
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1503 Dump() --------------------
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {1, 0} :   100
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {2, 1} :   50
+01-01 00:49:29.564   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {5, 4} :   50
+01-01 00:49:29.572   977 17965 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:4896 ProcessingNodeFinalizeInitialization() Raw_Sensor0_cam0: Sensor[0] SensorName:vd56g3_rear_left SensorMode:0 (WxH:1000x1000, FPS:30.000000, caps:NORMAL )SyncMode:0
+01-01 00:49:29.575   977 17965 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4873 ReadPDHWBufferDimensions() Raw_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:49:29.575   977 17965 I CamX    : [CORE_CFG][MEMMGR ] camxnodelegacy.cpp:10732 CreateOutputBufferManager() BufferMgrCreate ,[Raw_IFE0_cam0_OutputPortId8_RDI0] width=1000, height=1000, format=9,raw stride 1280 raw scanline 1000 GetTotalSize 1282048
+01-01 00:49:29.575   977 17965 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Raw_0_cam_0 status is now PipelineStatus::BUFFER_PROPERTIES_FINALIZED
+01-01 00:49:29.575   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Raw_0_cam_0 status is now PipelineStatus::PRE_FINALIZATION_INPROGRESS
+01-01 00:49:29.575   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:2963 Initialize() Session (0x559babdbc0) Initialized Raw
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][ISP    ] camxifenode.cpp:4902 ReadDefaultHWPDConfig() Raw_IFE0_cam0, PDAF HW Configuration is NULL
+01-01 00:49:29.576   977 17966 E CamX    : [ERROR][ISP    ] camxifenode.cpp:1877 GetPdHwInfoTableFromUsecasePool() Raw_IFE0_cam0, Get Pd HwInfo Table from uscasepool fail
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag com.qti.chi.qllControl.QLLConfiguration
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag com.qti.chi.qllControl.QLLConfiguration
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AEC_IQTrigger
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AWB_IQTrigger
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_AF_IQTrigger
+01-01 00:49:29.576   977 17966 W CamX    : [ WARN][CORE   ] camxnodelegacy.cpp:5762 GetSingleDataFromPipeline() Node::Raw_IFE0_cam0 request: 1 from future offset original requestId: 1 last request 0 offset 0 flush 0 tag org.quic.camera2.oem.trigger.OEM_Reserve_IQTrigger
+01-01 00:49:29.576   977 17966 E CamX    : [ERROR][ISP    ] camxifenode.cpp:28314 UpdateActiveSensorDataInTriggerData() sensor full: (1000 x 1000), calculated resolution: (1124 x 1000)
+01-01 00:49:29.585   977   977 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:49:29.586   977 17966 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwIFE phDevice=0x980102 name:/dev/v4l-subdev1 dIndex 0 hIndex 2 sessionName Raw
+01-01 00:49:29.586   977 17966 I CamX    : [CORE_CFG][CORE   ] camxpipeline.h:3879 SetPipelineStatus() Raw_0_cam_0 status is now PipelineStatus::PRE_FINALIZED
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1517 configure_streams()  FINAL stream[0] = 0x55990577c8 - info:
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1520 configure_streams()             format       : 37, HAL_PIXEL_FORMAT_RAW10
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1522 configure_streams()             width        : 1000
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1524 configure_streams()             height       : 1000
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1527 configure_streams()             stream_type  : 00000000, CAMERA3_STREAM_OUTPUT
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1529 configure_streams()             usage        : 00030013
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1533 configure_streams()             max_buffers  : 14
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1543 configure_streams()             rotation     : 00000000, CAMERA3_STREAM_ROTATION_0
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1546 configure_streams()             data_space   : 00000102, HAL_DATASPACE_BT601_625
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1548 configure_streams()             priv         : 0x559b4edf60
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1551 configure_streams()             streamUsecase         : 0
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1554 configure_streams()             hdr_profile           : 00000000, HDR_PROFILE_UNKNOWN
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1557 configure_streams()             reserved[0]         : 0x559b4edf68
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1559 configure_streams()             reserved[1]         : (nil)
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1574 configure_streams()    pHalStream: 0x559b4edf68 format : 0x25, overrideFormat : 0x25 consumer usage: 0, producer usage: 30013
+01-01 00:49:29.586   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1582 configure_streams() HalOp: End CONFIG, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.587   977 17958 I Camera3Stream: GetBufferLocked: Allocated new buffer, total buffers allocated = 1
+01-01 00:49:29.587   977 17958 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1691 process_capture_request() logical camera id 0, frame_number 0, settings 0x7f2402c0e0, priv_settings (nil), priv_result (nil), num_priv_phy_result 0, num_output_buffers 1
+01-01 00:49:29.587   977   977 I RecorderCameraContext: UpdateRequest: last_frame_number: current=-1 previous=-1
+01-01 00:49:29.587   977   977 I RecorderCameraContext: UpdateRequest: last_frame_number_map_[0]=-1
+01-01 00:49:29.587   977   977 I RecorderCameraContext: UpdateRequest: SubmitRequest for Num streams(1) is successfull request_id(0) batches: 1
+01-01 00:49:29.587   977   977 I RecorderCameraContext: Start: track_id(1010001):Port(0x559a2ce9a0) Started Succussfully!
+01-01 00:49:29.587   977   977 I RecorderCameraContext: StartStream: track_id(16842753) started on port(0x0x559a2ce9a0)
+01-01 00:49:29.587   977 17958 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:49:29.587   977 17958 E CamX    : [ERROR][META   ] camxmetabuffer.cpp:3295 SetTag() Cannot set 8066003d size 0 max 4
+01-01 00:49:29.587   977 17958 I CHIUSECASE: [REQMAP ] chxadvancedcamerausecase.cpp:3908 ExecuteCaptureRequest() frame: 0  <==>  (chiFrameNum) chiOverrideFrameNum: 0
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1501 Dump() --------------------
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1502 Dump()     Key      Cost   
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1503 Dump() --------------------
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {1, 0} :   100
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {2, 1} :   50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:1512 Dump()   {5, 4} :   50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 0
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:180 DumpState() 
+01-01 00:49:29.587   977 17958 E CamX    : 
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:181 DumpState() client {Raw_0, 0x559b4e5d90}
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:182 DumpState() -------------------------
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:183 DumpState()     Key     Allocation
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:184 DumpState() -------------------------
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {1, 0} :   100
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {2, 1} :   50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {5, 4} :   50
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:479 DumpState() 
+01-01 00:49:29.587   977 17958 E CamX    : 
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:480 DumpState() reservation Id: 0
+01-01 00:49:29.587   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:481 DumpState() ----------------------------------
+01-01 00:49:29.588   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:482 DumpState()     Key      reservation
+01-01 00:49:29.588   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:483 DumpState() ----------------------------------
+01-01 00:49:29.588   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:492 DumpState()   {1, 0} :     0
+01-01 00:49:29.588   977 17958 E CamX    : [ DUMP][CORE   ] camxresourcemanager.h:492 DumpState()   {5, 4} :     0
+01-01 00:49:29.714   977  3014 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1137 CSLAcquireDeviceHW() DeviceAcquired: Name=CSLHwImageSensor phDevice=0x560101 name:/dev/v4l-subdev12 dIndex 14 hIndex 1 sessionName Raw
+01-01 00:49:29.714   977  3014 I CamX    : [CORE_CFG][SENSOR ] camxsensornode.cpp:9431 AcquireDevice() Raw_Sensor0_cam0: Sensor[0] [vd56g3_rear_left] Acquired Sensor, hCSL: 0x2f0200 hSensorDevice: 0x560101
+01-01 00:49:29.714   977  3014 W CamX    : [ WARN][CSL    ] camxcslhwinternal.cpp:4017 CSLHwInternalDefaultSubmit() ioctl failed for fd=22 index 14
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][CSL    ] camxcslhw.cpp:2719 CSLSubmitHW() Error Submitting device, CSLHandle 3080704Devicehandle 5636353 DeviceIndex: 14 idx: 0
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9901 LoadSensorInitConfigCmd() Sensor[0] initialization failed, result: CamxResultEFailed
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9732 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:10336 CreateSensorSubmodules() Sensor[0] Creating submodules failed due to failed sensor configuration
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9732 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:5891 LoadSensorConfigCmds() Sensor[0] Initialization failed, cannot configure sensor!
+01-01 00:49:29.714   977  3014 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:9732 SensorThreadJobCallback() Sensor[0] workerCore failed with result CamxResultEFailed
+01-01 00:49:29.714   977 17958 E CamX    : [ERROR][SENSOR ] camxsensornode.cpp:1072 PrepareStreamOn() Sensor[0] not configured, curConfigStatus: 6
+01-01 00:49:29.714   977 17958 I CamX    : [CORE_CFG][SENSOR ] camxsensornode.cpp:1085 PrepareStreamOn() Sensor[0] [vd56g3_rear_left] ConfigStatus:6 isEarlyPCREnabled:0
+01-01 00:49:29.714   977 17958 E CamX    : [ERROR][CORE   ] camxpipeline.cpp:3406 FinalizePipeline() Pipeline::Raw_0_cam_0 PrepareStreamOn failed with CamxResultEFailed
+01-01 00:49:29.714   977 17958 E CamX    : [ERROR][CORE   ] camxsession.cpp:4059 ProcessCaptureRequest() Raw: FinalizePipeline failed pipelineIndex 0 PipelineName: Rawresult: CamxResultEFailed
+01-01 00:49:29.714   977 17958 E CamX    : [ERROR][CHI    ] camxchicontext.cpp:6889 SubmitRequest() Request 0 failed when submitting requests.
+01-01 00:49:29.714   977 17958 E CamX    : [ERROR][CHI    ] camxchi.cpp:3226 ChiSubmitPipelineRequest() Submit request failed with error 1.
+01-01 00:49:29.714   977 17958 E CHIUSECASE: [ERROR  ] chxadvancedcamerausecase.cpp:3914 ExecuteCaptureRequest() Submit request failure for session:0
+01-01 00:49:29.714   977 17958 E CHIUSECASE: [ERROR  ] chxadvancedcamerausecase.cpp:3936 ExecuteCaptureRequest() Defer thread or submit request failure for session:0
+01-01 00:49:29.714   977 17958 E CHIUSECASE: [ERROR  ] chxusecase.cpp:833 ProcessCaptureRequest() ECR Errored Out! Usecase:1 cameraId:0 in state: CamxResultEFailed
+01-01 00:49:29.714   977 17958 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1776 process_capture_request() logical camera id 0, frame_number 0, num_output_buffers 1, resultOut -19
+01-01 00:49:29.714   977 17958 E CameraAdaptor: SetErrorStateLockedV: Camera 0: SubmitRequest: SubmitRequest: Unable to submit request 0 in CameraHal : No such device (-19)
+01-01 00:49:29.714   977 17958 W RecorderCameraContext: CameraErrorCb: Camera: 0, Error: 1, Request: 0, FrameNumber: 0
+01-01 00:49:29.714   977 17958 E RecorderCameraContext: CameraErrorCb: Camera device faced an unrecoverable error!
+01-01 00:49:29.716   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.717   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest: Number of active_ports(1)
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest: cam_stream_id(0)
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest: CameraPort(0x0x559a2ce9a0):camera_stream_id(0) is stopped 
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest: streaming_active_requests_.size(0)
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest: Number of streams(0) to start
+01-01 00:49:29.717   977   977 I RecorderCameraContext: UpdateRequest:Cancelling the request, no pending stream!
+01-01 00:49:29.717   977   977 I RecorderCameraContext: CancelRequest: Issuing Flush!
+01-01 00:49:29.719   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1839 flush() HalOp: Begin FLUSH: 0x7f6c1bc670, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.719   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:0 session 0x559babdbc0 Raw
+01-01 00:49:29.769   977   977 E CamX    : [ERROR][CORE   ] camxsession.cpp:139 WaitTillAllResultsAvailable() Session 0x559babdbc0 [Raw] TimedWait for results timed out at 50 ms with error CamxResultETimeout! Pending results: 
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:1 session 0x559babdbc0 Raw
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9346 DumpDebugInfo() +----------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9347 DumpDebugInfo() +            CALLING SESSION DUMP 0x559babdbc0             +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9348 DumpDebugInfo() + numPipelines:             1
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9349 DumpDebugInfo() + livePendingRequests:      1
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9350 DumpDebugInfo() + maxLivePendingRequests:   6
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9351 DumpDebugInfo() + requestQueueDepth:        8
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9357 DumpDebugInfo() + Pipeline[0] Flush Status: 1
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9360 DumpDebugInfo() + usecaseNumBatchedFrames:  1
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6995 DumpDebugInfo() +----------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6996 DumpDebugInfo() +    PIPELINE DEBUG INFO     +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7002 DumpDebugInfo() +  Pipeline Name: Raw_0_cam_0, Pipeline ID: 0, 0x559b4eea90, CurrentRequestId: 0 cameraid=0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7014 DumpDebugInfo() +------------------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7015 DumpDebugInfo() + Request info for the pending nodes
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7050 DumpDebugInfo() +------------------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7051 DumpDebugInfo() +      METADATA DEBUG INFO       +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7054 DumpDebugInfo() |      Requests Range - lastInOrderMetaCompletedRequestId: 0 currentRequest : 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7059 DumpDebugInfo() +----------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7060 DumpDebugInfo() +      PERFRAMERESULT METADATA DUMP      +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7079 DumpDebugInfo() +----------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7080 DumpDebugInfo() +      PERFRAMEINPUT METADATA DUMP       +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6970 DumpMetadataPoolDebugInfo() +----------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6971 DumpMetadataPoolDebugInfo() +    METADATA POOL DEBUG INFO     +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6975 DumpMetadataPoolDebugInfo() Flush in progress
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:672 DumpMetadataPoolDebugInfo() Dumping [Metadata Type: PerFrameResult P:0x559bbd0fc0] Metadata pool, Pooltype = 3 NumSlots = 16
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  0 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  1 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  2 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  3 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  4 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  5 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  6 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  7 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  8 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  9 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 10 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 11 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 12 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 13 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 14 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 15 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6982 DumpMetadataPoolDebugInfo() +------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:672 DumpMetadataPoolDebugInfo() Dumping [Metadata Type: PerFrameInput P:0x559bc0c860] Metadata pool, Pooltype = 2 NumSlots = 16
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  0 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  1 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  2 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  3 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  4 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  5 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  6 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  7 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  8 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index =  9 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 10 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 11 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 12 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 13 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 14 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1685 DumpMetadataSlotDebugInfo() Slot Index = 15 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6987 DumpMetadataPoolDebugInfo() +------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7100 DumpDebugInfo() +------------------------------------------------------------------+
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:7101 DumpDebugInfo() +      NODE DEBUG INFO       +
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:633 DumpStateToLog() Job Registry 0x7f6c00f340
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family DeferredWorkerWrapper0x34 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family CamXResourceManager - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family Metadata Type: PerFrameInternal P:0x559bc2a320 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family Metadata Type: PerFrameDebugData P:0x559bc325a0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family DeferredWorkerWrapper0x559babdbc0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family NodeCommonThreadJobFamily0x559babdbc0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family vd56g3_rear_left_camera_0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family OIS_vd56g3_rear_left_camera_0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family readName_vd56g3_rear_left_camera_0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family CHISessionWrapperResult0x559babdbc0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 E CamX    : [ DUMP][CORE   ] camxthreadjobregistry.cpp:626 operator()()   Job Family CHISessionWrapperRequest0x559babdbc0 - Total Job Count: 0, In Flight: 0, On Hold: 0, submitted: 0
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:273 DumpOverriddenSettings() =============== BEGIN DUMP OF OVERRIDE SETTINGS ===============
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:274 DumpOverriddenSettings() <Setting> (<Hash>) = <Value>
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxoverridesettingsfile.cpp:278 DumpOverriddenSettings() ================ END DUMP OF OVERRIDE SETTINGS ================
+01-01 00:49:29.769   977   977 W CamX    : [ WARN][CORE   ] camxsession.cpp:11339 GetSmartErrorCodeRequestIdHint() Could not generate a sessionRequestIdHint 0!  numnodes: 0
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:11302 HandleSmartErrorCodeCreation() Smart error code : 33564928, Verbose error string : Session has 1 live pending requests
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:6793 HandleSystemEventCb() Triggering System Event: Session:0x559babdbc0, Node:Unknown(-1), Instance:-1, Pipeline:Unknown(-1) DumpOnly:1
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:6803 HandleSystemEventCb() ErrorCode:33564928, ErrorString: NonZeroLivePendingRequests, ErrorDescription: Session has 1 live pending requests forceSigAbort=0 threadCallStacksDumped = 0frameworkFrameNum=33564928 isThreadCallStackDumpRequested=0
+01-01 00:49:29.769   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:0 session 0x559babdbc0 Raw
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:388 TriggerDumpEvent() Camera Core Dump: Triggered, fd -1
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:638 LogSystemEventHeader() +------------------------------------------------------------------+
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:639 LogSystemEventHeader() +                   System Event Trigger Info                       
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:640 LogSystemEventHeader() +------------------------------------------------------------------+
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:642 LogSystemEventHeader() System Header Data:
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:645 LogSystemEventHeader() errorCode                      : 33564928
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:647 LogSystemEventHeader() error String                   : NonZeroLivePendingRequests
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:649 LogSystemEventHeader() error Description              : Session has 1 live pending requests
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:651 LogSystemEventHeader() isDumpOnly                     : true
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:653 LogSystemEventHeader() forceSigAbort                  : false
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:655 LogSystemEventHeader() isThreadDumpRequested          : false
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:684 LogSystemEventHeader() Session Data:
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:686 LogSystemEventHeader() SessionInstance                : 0x559babdbc0
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:690 LogSystemEventHeader() SessionPipelines               : Raw
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:722 LogSystemEventHeader() Usecase Data:
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:724 LogSystemEventHeader() UsecaseInstance                : 0x559a2d8cd0
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:726 LogSystemEventHeader() UsecaseName                    : UsecaseRaw
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:728 LogSystemEventHeader() UsecaseID                      : 1
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][UTILS  ] camxosutilslinuxembedded.cpp:2175 SetCoreDumpDirectoryPath() Camera Core Dump: Create root Dir: /data/vendor/camera/coredump return = -1
+01-01 00:49:29.770   977 17961 W CamX    : [ WARN][UTILS  ] camxosutilslinuxembedded.cpp:2240 SetCoreDumpDirectoryPath() Camera Core Dump: Create Dir Failed: Path =  return = -1 errno: 13: Permission denied
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:447 TriggerDumpEvent() Binary coredumped to filepath with offline log: .bin
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:487 TriggerDumpEvent() Text coredumped to filepath with offline log:  .txt
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2900 Dump() +------------------------------------------------------------------+
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2902 Dump() +                   System Event Trigger Info                       
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2904 Dump() +------------------------------------------------------------------+
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2907 Dump() System Header Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2911 Dump() errorCode                      : 33564928
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2913 Dump() error String                   : NonZeroLivePendingRequests
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2915 Dump() error Description              : Session has 1 live pending requests
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2917 Dump() isDumpOnly                     : true
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2920 Dump() forceSigAbort                  : false
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2922 Dump() isThreadDumpRequested           : false
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2924 Dump() isSelectiveRecovery           : false
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2957 Dump() Node Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2959 Dump() nodeInstanceId                 : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2961 Dump() nodeType                       : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2963 Dump() nodeName                       : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2965 Dump() NodeInstance                   : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2995 Dump() Pipeline Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2997 Dump() pipelineId                     : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:2999 Dump() PipelineName                   : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3001 Dump() PipelineInstance               : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3011 Dump() Session Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3014 Dump() SessionInstance                : 0x559babdbc0
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3019 Dump() SessionPipelines               : Raw
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3056 Dump() Feature Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3058 Dump() FeatureId                      : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3060 Dump() FeatureInstanceId              : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3062 Dump() FeatureInstance                : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3064 Dump() FeatureName                    : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3091 Dump() Graph Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3093 Dump() GraphId                        : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3095 Dump() GraphInstance                  : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3097 Dump() GraphName                      : NIL
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3107 Dump() Usecase Data:
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3110 Dump() UsecaseInstance                : 0x559a2d8cd0
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3113 Dump() UsecaseName                    : UsecaseRaw
+01-01 00:49:29.770   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3116 Dump() UsecaseID                      : 1
+01-01 00:49:29.770   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:3137 Dump() System Event Payload: ErrorCode:33564928 ForceSigAbort:0 nodeType:NIL nodeInstanceId:NIL pipelineId:NIL pipelineName:NIL featureName:NIL graphName:NIL usecaseName:UsecaseRaw
+01-01 00:49:29.870   977   977 E CamX    : [ERROR][CORE   ] camxsession.cpp:307 FallbackFlush() Fallback TimedWait for results timed out at 100 ms with error CamxResultETimeout!
+01-01 00:49:29.970   977   977 E CamX    : [ERROR][CORE   ] camxsession.cpp:343 FallbackFlush() Fallback forced flush call timed out at 100 ms with error CamxResultETimeout!
+01-01 00:49:29.970   977   977 E CamX    : [ERROR][CORE   ] camxresourcemanager.cpp:2211 PostFlush() client {Raw_0, 0x559b4e5d90}, refCount: 1
+01-01 00:49:29.970   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1278 Flush() Flush took 251 ms. Session (0x559babdbc0) Raw
+01-01 00:49:29.970   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:0 session 0x559babdbc0 Raw
+01-01 00:49:29.970   977   977 E CameraAdaptor: NotifyError: Error request for camera id:0, frame_number:0
+01-01 00:49:29.970   977   977 W CamX    : [ WARN][CORE   ] camxhaldevice.cpp:263 ProcessCaptureResult() Received metadata or buffer after sending ERROR_REQUEST for Frame 0
+01-01 00:49:29.970   977   977 W CamX    : [ WARN][CORE   ] camxhaldevice.cpp:283 ProcessCaptureResult() Receiving unexpected buffer for Frame 0
+01-01 00:49:29.970   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1851 flush() HalOp: End FLUSH: 0x7f6c1bc670 with result 0, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.970   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1870 flush() HalOp: End FLUSH: 0x7f6c1bc670, logicalCameraId: 0, cameraId: 0 resultOut 0
+01-01 00:49:29.970   977   977 I RecorderCameraContext: CancelRequest: last_frame_mumber(0) after Flush
+01-01 00:49:29.970   977   977 I RecorderCameraContext: CancelRequest: Request cancelled last frame number: 0
+01-01 00:49:29.970   977   977 I RecorderCameraContext: Stop: track_id(1010001):Port(0x559a2ce9a0) Stopped Succussfully!
+01-01 00:49:29.970   977   977 I RecorderCameraSource: StopTrack: Pipe stop done(1010001)
+01-01 00:49:29.971   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.971   977   977 I RecorderCameraContext: GetPort: Found port for track_id(1010001)
+01-01 00:49:29.971   977   977 I RecorderCameraContext: DeleteDeviceStream: Camera Device Stream(0) deleted successfully!
+01-01 00:49:29.971   977   977 I RecorderCameraContext: DeInit: Exit
+01-01 00:49:29.971   977   977 I RecorderCameraContext: DeleteStream: Camera Port for track_id(1010001) deleted
+01-01 00:49:29.971   977   977 I RecorderCameraContext: ~CameraPort: Enter 
+01-01 00:49:29.971   977   977 I RecorderCameraContext: ~CameraPort: Exit (0x0x559a2ce9a0)
+01-01 00:49:29.971   977   977 I RecorderCameraSource: ~TrackSource: Enter 
+01-01 00:49:29.971   977   977 I RecorderCameraSource: ~TrackSource: Exit(0x0x5598eb9920) 
+01-01 00:49:29.971   977   977 I RecorderCameraSource: DeleteTrackSource: Track(1010001): Deleted Successfully!
+01-01 00:49:29.971   977   977 I RecorderService: StopCamera: Enter client_id(1)
+01-01 00:49:29.971   977   977 I RecorderCameraSource: StopCamera: Camera(0) to close!
+01-01 00:49:29.971   977   977 I RecorderCameraContext: CloseCamera: Enter
+01-01 00:49:29.971   977   977 I RecorderCameraContext: CloseCamera: Camera Closed Succussfully!
+01-01 00:49:29.971   977   977 I RecorderCameraContext: ~CameraContext: Enter
+01-01 00:49:29.971   977   977 I RecorderCameraContext: ~CameraContext: Exit
+01-01 00:49:29.971   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1173 close() HalOp: Begin CLOSE, logicalCameraId: 0, cameraId: 0
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 50
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 0
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 50
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:180 DumpState() 
+01-01 00:49:29.972   977   977 E CamX    : 
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:181 DumpState() client {Raw_0, 0x559b4e5d90}
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:182 DumpState() -------------------------
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:183 DumpState()     Key     Allocation
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:184 DumpState() -------------------------
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {1, 0} :   100
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {2, 1} :   50
+01-01 00:49:29.972   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:193 DumpState()   {5, 4} :   50
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3156 Dump() +------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3158 Dump() +                          HAL Dump                                +
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:3160 Dump() +------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9129 DumpState() +-----------------------------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9130 DumpState() + SESSION 0x559babdbc0 DUMP
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9132 DumpState() +-----------------------------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9135 DumpState() + numPipelines            = 1
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9137 DumpState() + livePendingRequests     = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9139 DumpState() + maxLivePendingRequests  = 6
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9141 DumpState() + requestQueueDepth       = 8
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9144 DumpState() + FlushStatus             = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9146 DumpState() + usecaseNumBatchedFrames = 1
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9148 DumpState() + numRealtimePipelines    = 1
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9151 DumpState() + partialMetadataEnabled  = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9154 DumpState() + aDeviceInError          = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9156 DumpState() + isTorchWidgetSession    = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9158 DumpState() + m_isNoInputBufferSession    = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9160 DumpState() + isRequestBatchingOn     = false
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9162 DumpState() + sequenceId              = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9164 DumpState() + syncSequenceId          = 1
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9166 DumpState() -----------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9168 DumpState() + Pipeline(s) overview:
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9170 DumpState() -----------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9214 DumpState()   Pipeline_Raw_0_cam_0 { cameraId = 0, requestBatchId = 0, batchedFrameIndex = 0}
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9229 DumpState() 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9292 DumpState() +-----------------------------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9294 DumpState() + RESULT HOLDER DUMP, 0 PENDING ENTRIES
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9301 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9302 DumpState() + PIPELINE DEBUG INFO:
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9304 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6420 DumpState() + Pipeline Name: Raw_0_cam_0, Pipeline ID: 0, Pipeline Instance:0x559b4eea90,PipelineDescriptor:0x559b4e5d90 CurrentRequestId: 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6422 DumpState()   -------------------------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6425 DumpState() + index                         = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6427 DumpState() + status                        = "PipelineStatus::PRE_FINALIZED"
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6429 DumpState() + currentSensorMode             = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6431 DumpState() + cameraId                      = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6433 DumpState() + sensorSyncMode                = "NoSync"
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6435 DumpState() + pipelineFlags                 = 0x0000002C
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6437 DumpState() + hCSLLinkHandle                = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6439 DumpState() + hCSLSyncLinkHandle            = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6441 DumpState() + nodeCount                     = 2
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6443 DumpState() + maxPipelineDelay              = 3
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6445 DumpState() + lastModeBitMask              = 0x0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6447 DumpState() + lastRequestActiveStreamIdMask = 0x00000000
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6449 DumpState() + lastInOrderCompletedRequestId = 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6451 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6453 DumpState() +  Pending Nodes:
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6455 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6459 DumpState() + Requests Range - lastInOrderCompletedRequestId: 0 currentRequest: 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6461 DumpState()   ---------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6563 DumpState() + Available CSL Device Handle: 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6574 DumpState()   ---------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6578 DumpState() + Metadata Pending Range - lastInOrderMetaCompletedRequestId: 0 currentRequest: 0
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6580 DumpState()   ---------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6585 DumpState() + PerFrameResult Metadata: 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6640 DumpState() + PerFrameInput Metadata: 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6670 DumpState() 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6672 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6673 DumpState() + Metadata pools Info
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6675 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6676 DumpState() + PerFrameResult Metadata Pool: 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:644 DumpMetadataPoolState() Metadata Type: PerFrameResult P:0x559bbd0fc0, Pooltype = 3 NumSlots = 16
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  0 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  1 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  2 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  3 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  4 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  5 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  6 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  7 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  8 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  9 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 10 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 11 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 12 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 13 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 14 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 15 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6683 DumpState() + PerFrameInput Metadata Pool: 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:644 DumpMetadataPoolState() Metadata Type: PerFrameInput P:0x559bc0c860, Pooltype = 2 NumSlots = 16
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  0 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  1 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  2 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  3 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  4 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  5 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  6 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  7 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  8 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index =  9 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 10 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 11 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 12 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 13 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 14 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxmetadatapool.cpp:1663 DumpMetadataSlotState() Slot Index = 15 IsValid = 0 Associated ReqId = 0 Metabuffer = (nil)
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6698 DumpState() 
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6700 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6701 DumpState() + USECASE METADATA
+01-01 00:49:29.981   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6712 DumpState() Dump Usecase's Metadata: Raw_0_cam_0 in file: /UsecaseMetadata_Raw_0_cam_0.txt
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6737 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6777 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6779 DumpState() + Request info for the pending nodes:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6781 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6858 DumpState() ======================================================================
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6860 DumpState() + Detailed Status for the Nodes:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6862 DumpState() ======================================================================
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6928 DumpState() Node: Raw_Sensor0_cam0 Not enabled, Skip Node Core Debug Info
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6932 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6934 DumpState() + Fence Error Info:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6936 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6940 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6942 DumpState() + Graph:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6944 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6946 DumpState() Nodes + ports:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13093 DumpNodeInfo() ----------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13095 DumpNodeInfo() nodeIdentifierString    : Raw_Sensor0_cam0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13097 DumpNodeInfo() nodeFlags               : 52
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13099 DumpNodeInfo() nodeType                : 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13101 DumpNodeInfo() instanceId              : (nil)
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13103 DumpNodeInfo() pipelineNodeIndex       : 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13105 DumpNodeInfo() isIPERealtime           : false
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13107 DumpNodeInfo() deviceIndexCount        : 5
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13109 DumpNodeInfo() numCmdBufferManagers    : 12
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13111 DumpNodeInfo() maxNumCmdBufferManagers : 45
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13113 DumpNodeInfo() maxOutputPorts          : 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13115 DumpNodeInfo() maxInputPorts           : 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13117 DumpNodeInfo() inputPortDisableMask    : 0x0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13166 DumpNodeInfo() OutputPort 0, format: 0  maxNumBuffers: 0, memFlags: 0x00000000, heap: 0,
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13172 DumpNodeInfo() flags: 0x00000080, streamEnableMask: 0x00000001, numBatchedFrames: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[0]: 14
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[1]: 5
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[2]: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13166 DumpNodeInfo() OutputPort 1, format: 0  maxNumBuffers: 0, memFlags: 0x00000000, heap: 0,
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13172 DumpNodeInfo() flags: 0x00000080, streamEnableMask: 0x00000001, numBatchedFrames: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[0]: 14
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[1]: 5
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[2]: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6950 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6952 DumpState() Links:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6954 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6928 DumpState() Node: Raw_IFE0_cam0 Not enabled, Skip Node Core Debug Info
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6932 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6934 DumpState() + Fence Error Info:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6936 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6940 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6942 DumpState() + Graph:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6944 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6946 DumpState() Nodes + ports:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13093 DumpNodeInfo() ----------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13095 DumpNodeInfo() nodeIdentifierString    : Raw_IFE0_cam0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13097 DumpNodeInfo() nodeFlags               : 52
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13099 DumpNodeInfo() nodeType                : 65536
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13101 DumpNodeInfo() instanceId              : (nil)
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13103 DumpNodeInfo() pipelineNodeIndex       : 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13105 DumpNodeInfo() isIPERealtime           : false
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13107 DumpNodeInfo() deviceIndexCount        : 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13109 DumpNodeInfo() numCmdBufferManagers    : 6
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13111 DumpNodeInfo() maxNumCmdBufferManagers : 30
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13113 DumpNodeInfo() maxOutputPorts          : 178
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13115 DumpNodeInfo() maxInputPorts           : 11
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13117 DumpNodeInfo() inputPortDisableMask    : 0x0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13142 DumpNodeInfo() InputPort 2, format: 0, portDisabled: false, bufferDelta: 545460846592
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13142 DumpNodeInfo() InputPort 6, format: 0, portDisabled: false, bufferDelta: 545460846592
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13142 DumpNodeInfo() InputPort 3, format: 0, portDisabled: false, bufferDelta: 545460846592
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13166 DumpNodeInfo() OutputPort 8, format: 9  maxNumBuffers: 40, memFlags: 0x00000001, heap: 1,
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13172 DumpNodeInfo() flags: 0x00000090, streamEnableMask: 0x00000001, numBatchedFrames: 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13201 DumpNodeInfo() deviceIndex[0]: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6950 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6952 DumpState() Links:
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6954 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13272 DumpLinkInfo() Node::Raw_Sensor0_cam0::OutputPort_0 -> Node::Raw_IFE0_cam0::InputPort_2 -- bufferDelta = 0, maxImageBuffer = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13272 DumpLinkInfo() Node::Raw_Sensor0_cam0::OutputPort_1 -> Node::Raw_IFE0_cam0::InputPort_6 -- bufferDelta = 0, maxImageBuffer = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13272 DumpLinkInfo() Node::Raw_Sensor0_cam0::OutputPort_1 -> Node::Raw_IFE0_cam0::InputPort_3 -- bufferDelta = 0, maxImageBuffer = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxnodelegacy.cpp:13310 DumpLinkInfo() Node::Raw_IFE0_cam0::OutputPort_8 -> SinkBuffer_0 -- BufferQueueDepth = 545460846592, maxImageBuffer = 40
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1439 DumpState() ImageBufferManager_Raw_IFE0_cam0_OutputPortId8_RDI0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1441 DumpState() address                = 0x7f240178f0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1443 DumpState() allocateBufferMemory   = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1445 DumpState() enableLateBinding      = 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1447 DumpState() disableSelfShrinking   = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1449 DumpState() obeyImmediateCount     = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1451 DumpState() NeedDedicatedBuffers   = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1453 DumpState() deviceCount            = 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1455 DumpState() deviceIndices          = 604076976
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1457 DumpState() immediateAllocBufCount = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1459 DumpState() numBatchedFrames       = 1
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1461 DumpState() maxBufferCount         = 40
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1464 DumpState() bufferManagerType      = "CamxBufferManager"
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1500 DumpState() freeBuffersCount = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1502 DumpState() busyBufferCount  = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camximagebuffermanager.cpp:1507 DumpState() BusyBuffers
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxpipeline.cpp:6961 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9312 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9313 DumpState() + HAL3 REQUEST QUEUE
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9315 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][HAL    ] camxhal3queue.cpp:597 DumpState() m_pQueueLockAcquireStatus = "CamxResultSuccess"
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][HAL    ] camxhal3queue.cpp:823 DumpState() Queue is currently empty...m_head: 0  m_tail: 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9320 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9321 DumpState() + DEFERRED REQUEST QUEUE
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9323 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1881 DumpState() DRQ:0x559a2a8580 is associated with Session:0x559babdbc0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1883 DumpState() Num deferred nodes     = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1885 DumpState() Num Chi deferred nodes = 0
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1898 DumpState() -----------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1899 DumpState() Internal dependencies: 
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:2039 DumpState() -----------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:2040 DumpState() Chi dependencies: 
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9328 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9329 DumpState() + THREAD MANAGER
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxsession.cpp:9331 DumpState() +---------------------------------------------------------------------------------------+
+01-01 00:49:29.982   977 17961 E CamX    : [ERROR][CORE   ] camxsettingsmanager.cpp:328 WriteCamxSettingsToFile() Camera Core Dump: Failed opening CamxSetting Dump File: /camxsettingsdump.txt
+01-01 00:49:29.982   977 17961 E CamX    : [ERROR][CORE   ] camxtitan17xsettingsmanager.cpp:191 WriteCamxHwSettingsToFile() Camera Core Dump: Failed opening CamxSetting Dump File: /camxsettingsdump.txt
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7047 DumpState() 
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7049 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7050 DumpState() + STATIC METADATA
+01-01 00:49:29.982   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7074 DumpState() Dump Static metadata in file: /StaticMetadata_cameraID_0.txt
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7102 DumpState() ----------------------------------------------------------------------
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7103 DumpState() 
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7106 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7108 DumpState() +          ChiContext DRQ                                          +
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxchicontext.cpp:7110 DumpState() +------------------------------------------------------------------+
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1881 DumpState() DRQ:0x7f6c09f690 is associated with Session:0x34
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1883 DumpState() Num deferred nodes     = 0
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1885 DumpState() Num Chi deferred nodes = 0
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1898 DumpState() -----------------------
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:1899 DumpState() Internal dependencies: 
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:2039 DumpState() -----------------------
+01-01 00:49:29.983   977 17961 E CamX    : [ DUMP][CORE   ] camxdeferredrequestqueue.cpp:2040 DumpState() Chi dependencies: 
+01-01 00:49:29.985   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:531 TriggerDumpEvent() +------------------------------------------------------------------+
+01-01 00:49:29.985   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:534 TriggerDumpEvent() +                  Dump took 215 ms                         +
+01-01 00:49:29.985   977 17961 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:536 TriggerDumpEvent() +------------------------------------------------------------------+
+01-01 00:49:29.985   977 17961 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:587 TriggerDumpEvent() Camera Core Dump: Completed, result CamxResultSuccess
+01-01 00:49:29.985   977 17961 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:7067 TriggerCoreDump() Core Debug Dump for CameraId 0 took 216ms
+01-01 00:49:29.985   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:0 session 0x559babdbc0 Raw
+01-01 00:49:29.985   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1298 Pause() Pause:0 session 0x559babdbc0 Raw
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IPEHw : 0], AvailableResource = 100
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 0], AvailableResource = 100
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [IFEHw : 1], AvailableResource = 100
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [SensorHw : 0], AvailableResource = 100
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:106 DumpState() [CSIPHYHw : 4], AvailableResource = 100
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:180 DumpState() 
+01-01 00:49:29.985   977   977 E CamX    : 
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:181 DumpState() client {Raw_0, 0x559b4e5d90}
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:182 DumpState() -------------------------
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:183 DumpState()     Key     Allocation
+01-01 00:49:29.985   977   977 E CamX    : [ DUMP][CORE   ] camxresourcemanager.cpp:184 DumpState() -------------------------
+01-01 00:49:29.986   977   977 I CamX    : [CORE_CFG][CORE   ] camxsession.cpp:1745 Destroy() Session (0x559babdbc0) Destroy Raw
+01-01 00:49:29.986   977   977 I CamX    : [CORE_CFG][CORE   ] camxpipeline.cpp:245 Destroy() Destroying Raw_0
+01-01 00:49:29.988   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensornode.cpp:168 ~SensorNode() Raw_Sensor0_cam0: Sensor[0] [vd56g3_rear_left] jobName: vd56g3_rear_left_camera_0, destroy pipeline
+01-01 00:49:30.015   977 17975 E CamX    : [ERROR][SENSOR ] camximagesensormoduledatamanager.cpp:520 UpdateAuxiliaryDatarateMask() NULL file handle for file: /data/vendor/camera/CSIPHYAuxDatarateMask.txt
+01-01 00:49:30.015   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensorcache.cpp:213 MustRelease() cameraId=0 subDevice=Sensor bReleaseDevice=1 isFullRecoveryTriggered=0
+01-01 00:49:30.015   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensorcache.cpp:256 ReleaseOneSubDevice() ReleaseOneSubDevice CameraId=0 CSLSession=0x2f0200 refCount=1 Subdevice: Sensor subDevHandle=0x560101  SubDeviceRefCount:0 mustrelease:1 bReleaseDeviceInvoked:1
+01-01 00:49:30.015   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensorcache.cpp:213 MustRelease() cameraId=0 subDevice=Sensor bReleaseDevice=1 isFullRecoveryTriggered=0
+01-01 00:49:30.016   977 17976 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1436 CSLReleaseDeviceHW() hCSL release success: 3080704, cslDeviceIndex 0, hDevice 0x980102 name:CSLHwIFE
+01-01 00:49:30.134   977 17975 I CamX    : [CORE_CFG][CSL    ] camxcslhw.cpp:1436 CSLReleaseDeviceHW() hCSL release success: 3080704, cslDeviceIndex 14, hDevice 0x560101 name:CSLHwImageSensor
+01-01 00:49:30.134   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensorcache.cpp:273 ReleaseOneSubDevice() Released CameraId=0 CSLSession=0x2f0200 refCount=0 Subdevice: Sensor subDevHandle=0x560101  SubDeviceRefCount:0
+01-01 00:49:30.134   977 17975 I CamX    : [CORE_CFG][SENSOR ] camxsensorcache.cpp:278 ReleaseOneSubDevice() CameraId=0 CSLClose(0x55002f0200)
+01-01 00:49:30.135   977   977 W CamX    : [ WARN][CSL    ] camxcslhw.cpp:469 CSLCloseHW() Current number of existing acquired devices: 2 for session: Raw(0x2f0200), Handle Index: 0
+01-01 00:49:30.136   977 17961 I CHIUSECASE: [CORE_CFG ] chxextensionmodule.cpp:7516 RequestThreadProcessing() Terminating recovery thread for logical cameraId: 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4199 PrintErrorSummary() ==================================================================================
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4201 PrintErrorSummary() + Num Unknown Frame Error                   : 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4203 PrintErrorSummary() + Num Unexpected Shutter                    : 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4205 PrintErrorSummary() + Num Unexpected Request Error Notification : 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4207 PrintErrorSummary() + Num Unexpected Buffer Error Notification  : 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4209 PrintErrorSummary() + Num Unexpected Metadata Error Notification: 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4211 PrintErrorSummary() + Num Unexpected Output buffer result       : 1
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4213 PrintErrorSummary() + Num Unexpected metadata result            : 0
+01-01 00:49:30.148   977   977 E CamX    : [ DUMP][HAL    ] camxhaldevice.cpp:4214 PrintErrorSummary() ==================================================================================
+01-01 00:49:30.153   977   977 I CamX    : [CORE_CFG][HAL    ] camxhaldevice.cpp:2630 CloseCachedSensorHandles() Releasing resources for Logical CameraID=0, PhysicalID=0
+01-01 00:49:30.153   977   977 I CamX    : [CORE_CFG][HAL    ] camxhal3.cpp:1196 close() HalOp: End CLOSE, logicalCameraId: 0, cameraId: 0
+01-01 00:49:30.154   977   977 I CamX    : [CORE_CFG][HAL    ] camxthermalmanager.cpp:182 UnregisterHALDevice() Unregistered pHALDevice=0x7f6c1bc660 CameraId=0
+01-01 00:49:30.157   977   977 I RecorderCameraSource: StopCamera: Camera(0) successfully closed!
+01-01 00:49:30.157   977   977 I RecorderImpl: StopCamera client_id(1): number of cameras(0)
+01-01 00:49:30.158   977   977 I RecorderService: StopCamera: Exit client_id(1)
+01-01 00:49:30.159   977   977 I RecorderImpl: DeRegisterClient: Client(1) Cameras 0
+01-01 00:49:30.159   977   977 I RecorderCameraSource: ~CameraSource: Enter
+01-01 00:49:30.159   977   977 I RecorderCameraSource: ~CameraSource: Exit (0x0x7f6c176f90)
