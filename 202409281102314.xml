@@ -1,0 +1,201 @@
+        <!-- resolution setting -->
+        <regSetting>
+          <registerAddr>0x0300</registerAddr>
+          <registerData>0xa4</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x301</registerAddr>
+          <registerData>0x06</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0312</registerAddr>
+          <registerData>0x58</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x313</registerAddr>
+          <registerData>0x02</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0458</registerAddr>
+          <registerData>0x50</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x459</registerAddr>
+          <registerData>0x0c</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x30c</registerAddr>
+          <registerData>0x82</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x30d</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x044c</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x043c</registerAddr>
+          <registerData>0x1e</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x43d</registerAddr>
+          <registerData>0x0</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x045a</registerAddr>
+          <registerData>0xb6</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x45b</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x045c</registerAddr>
+          <registerData>0x9d</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x45d</registerAddr>
+          <registerData>0x04</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x045e</registerAddr>
+          <registerData>0x3e</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x45f</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0460</registerAddr>
+          <registerData>0x25</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x461</registerAddr>
+          <registerData>0x04</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0462</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x463</registerAddr>
+          <registerData>0x00</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0464</registerAddr>
+          <registerData>0xe7</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x465</registerAddr>
+          <registerData>0x03</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0302</registerAddr>
+          <registerData>0x2</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
+        <regSetting>
+          <registerAddr>0x0335</registerAddr>
+          <registerData>0x1</registerData>
+          <regAddrType range="[1,4]">2</regAddrType>
+          <regDataType range="[1,4]">1</regDataType>
+          <operation>WRITE</operation>
+          <delayUs>0x00</delayUs>
+        </regSetting>
