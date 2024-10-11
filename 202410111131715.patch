@@ -1,0 +1,183 @@
+diff --git a/camx/src/core/camxpipeline.cpp b/camx/src/core/camxpipeline.cpp
+index 8882d2c74..147c18e10 100755
+--- a/camx/src/core/camxpipeline.cpp
++++ b/camx/src/core/camxpipeline.cpp
+@@ -5792,7 +5792,7 @@ VOID Pipeline::CSLMessageHandler(
+                     }
+                 }
+ 
+-                pPipeline->CheckForRecovery(&(pMessage->message.frameMessage));
++                /* pPipeline->CheckForRecovery(&(pMessage->message.frameMessage)); */
+             }
+             break;
+         case CSLMessageTypePageFault:
+diff --git a/camx/src/core/camxsession.cpp b/camx/src/core/camxsession.cpp
+index 717d03a81..802a32aac 100755
+--- a/camx/src/core/camxsession.cpp
++++ b/camx/src/core/camxsession.cpp
+@@ -139,38 +139,38 @@ CamxResult Session::WaitTillAllResultsAvailable(
+                            this, m_pipelineNames, waitTime, Utils::CamxResultToString(result));
+ 
+             // Dumping during recovery creates vulnerability to access destroyed pointers
+-            if (FALSE == GetSessionTriggeringRecovery())
+-            {
+-                if (TRUE == isFlush)
+-                {
+-                    if (TRUE == HwInterface::GetInstance()->GetStaticSettings()->sessionDumpForFlush)
+-                    {
+-                        CamxAtomicStoreU8(&m_aAllowPause, TRUE);
+-                        SessionTriggerSystemEvent(CamxResultExtCoreFlushResultTimedOut, TRUE, FALSE, TRUE);
+-                        CamxAtomicStoreU8(&m_aAllowPause, FALSE);
+-                    }
+-                    else
+-                    {
+-                        CAMX_LOG_ERROR(CamxLogGroupCore, "Flush Timedout");
+-                    }
+-                }
+-                else
+-                {
+-                    UINT32 fenceErrorCode;
+-
+-                    fenceErrorCode = GetFenceErrorCode();
+-
+-                    // Preference to fence error than Result Timeout.
+-                    if (UINT32_MAX != fenceErrorCode)
+-                    {
+-                        SessionTriggerSystemEvent(fenceErrorCode, TRUE, FALSE);
+-                    }
+-                    else
+-                    {
+-                        SessionTriggerSystemEvent(CamxResultExtCoreResultTimedOut, TRUE, FALSE);
+-                    }
+-                }
+-            }
++            /* if (FALSE == GetSessionTriggeringRecovery()) */
++            /* { */
++            /*     if (TRUE == isFlush) */
++            /*     { */
++            /*         if (TRUE == HwInterface::GetInstance()->GetStaticSettings()->sessionDumpForFlush) */
++            /*         { */
++            /*             CamxAtomicStoreU8(&m_aAllowPause, TRUE); */
++            /*             SessionTriggerSystemEvent(CamxResultExtCoreFlushResultTimedOut, TRUE, FALSE, TRUE); */
++            /*             CamxAtomicStoreU8(&m_aAllowPause, FALSE); */
++            /*         } */
++            /*         else */
++            /*         { */
++            /*             CAMX_LOG_ERROR(CamxLogGroupCore, "Flush Timedout"); */
++            /*         } */
++            /*     } */
++            /*     else */
++            /*     { */
++            /*         UINT32 fenceErrorCode; */
++
++            /*         fenceErrorCode = GetFenceErrorCode(); */
++
++            /*         // Preference to fence error than Result Timeout. */
++            /*         if (UINT32_MAX != fenceErrorCode) */
++            /*         { */
++            /*             SessionTriggerSystemEvent(fenceErrorCode, TRUE, FALSE); */
++            /*         } */
++            /*         else */
++            /*         { */
++            /*             SessionTriggerSystemEvent(CamxResultExtCoreResultTimedOut, TRUE, FALSE); */
++            /*         } */
++            /*     } */
++            /* } */
+         }
+         else
+         {
+@@ -3858,25 +3858,25 @@ CamxResult Session::ProcessCaptureRequest(
+         }
+     }
+ 
+-    if (CamxResultSuccess != result)
+-    {
+-        m_pLivePendingRequestsLock->Unlock();
++    /* if (CamxResultSuccess != result) */
++    /* { */
++    /*     m_pLivePendingRequestsLock->Unlock(); */
+ 
+-        UINT32 fenceErrorCode;
++    /*     UINT32 fenceErrorCode; */
+ 
+-        fenceErrorCode = GetFenceErrorCode();
++    /*     fenceErrorCode = GetFenceErrorCode(); */
+ 
+-        // Preference to fence error than PCR Timeout.
+-        if (UINT32_MAX != fenceErrorCode)
+-        {
+-            SessionTriggerSystemEvent(fenceErrorCode, FALSE, FALSE);
+-        }
+-        else
+-        {
+-            SessionTriggerSystemEvent(CamxResultExtCorePCRTimeout, FALSE, FALSE);
+-        }
+-    }
+-    else
++    /*     // Preference to fence error than PCR Timeout. */
++    /*     if (UINT32_MAX != fenceErrorCode) */
++    /*     { */
++    /*         SessionTriggerSystemEvent(fenceErrorCode, FALSE, FALSE); */
++    /*     } */
++    /*     else */
++    /*     { */
++    /*         SessionTriggerSystemEvent(CamxResultExtCorePCRTimeout, FALSE, FALSE); */
++    /*     } */
++    /* } */
++    /* else */
+     {
+         for (UINT requestIndex = 0; requestIndex < numRequests; requestIndex++)
+         {
+diff --git a/chi-cdk/oem/qcom/sensor/ahd_sensor_0/ahd_sensor_0.xml b/chi-cdk/oem/qcom/sensor/ahd_sensor_0/ahd_sensor_0.xml
+index 89502080b..d4572d109 100755
+--- a/chi-cdk/oem/qcom/sensor/ahd_sensor_0/ahd_sensor_0.xml
++++ b/chi-cdk/oem/qcom/sensor/ahd_sensor_0/ahd_sensor_0.xml
+@@ -21,7 +21,7 @@
+         <!--Register address for sensor Id -->
+         <sensorIdRegAddr>0xEF</sensorIdRegAddr>
+         <!--Sensor Id -->
+-        <sensorId>0x99</sensorId>
++        <sensorId>0xaa</sensorId>
+         <!--Mask for sensor id. Sensor Id may only be few bits -->
+         <sensorIdMask>4294967295</sensorIdMask>
+         <!--I2C frequency mode of slave
+diff --git a/commonsys-intf/QIIFA-fwk/plugin_interface.pyc b/commonsys-intf/QIIFA-fwk/plugin_interface.pyc
+old mode 100755
+new mode 100644
+index db013e0a1..ff3e02597
+Binary files a/commonsys-intf/QIIFA-fwk/plugin_interface.pyc and b/commonsys-intf/QIIFA-fwk/plugin_interface.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/plugins/__init__.pyc b/commonsys-intf/QIIFA-fwk/plugins/__init__.pyc
+old mode 100755
+new mode 100644
+index 1a4bfd3d1..886f424f5
+Binary files a/commonsys-intf/QIIFA-fwk/plugins/__init__.pyc and b/commonsys-intf/QIIFA-fwk/plugins/__init__.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/__init__.pyc b/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/__init__.pyc
+old mode 100755
+new mode 100644
+index fe94ea5fd..1626e559f
+Binary files a/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/__init__.pyc and b/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/__init__.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/cd_wrapper.pyc b/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/cd_wrapper.pyc
+old mode 100755
+new mode 100644
+index f8387a7f4..0072060b2
+Binary files a/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/cd_wrapper.pyc and b/commonsys-intf/QIIFA-fwk/plugins/qiifa_abi_checker/cd_wrapper.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/__init__.pyc b/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/__init__.pyc
+old mode 100755
+new mode 100644
+index 55b433d9f..f25e29717
+Binary files a/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/__init__.pyc and b/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/__init__.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/aidl_plugin.pyc b/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/aidl_plugin.pyc
+old mode 100755
+new mode 100644
+index 13d1320d8..bb491776a
+Binary files a/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/aidl_plugin.pyc and b/commonsys-intf/QIIFA-fwk/plugins/qiifa_aidl_checker/aidl_plugin.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/qiifa_util/__init__.pyc b/commonsys-intf/QIIFA-fwk/qiifa_util/__init__.pyc
+old mode 100755
+new mode 100644
+index 379a3d463..f992619c4
+Binary files a/commonsys-intf/QIIFA-fwk/qiifa_util/__init__.pyc and b/commonsys-intf/QIIFA-fwk/qiifa_util/__init__.pyc differ
+diff --git a/commonsys-intf/QIIFA-fwk/qiifa_util/util.pyc b/commonsys-intf/QIIFA-fwk/qiifa_util/util.pyc
+old mode 100755
+new mode 100644
+index f9ca91422..2991fee03
+Binary files a/commonsys-intf/QIIFA-fwk/qiifa_util/util.pyc and b/commonsys-intf/QIIFA-fwk/qiifa_util/util.pyc differ
