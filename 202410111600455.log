@@ -1,0 +1,71 @@
+--------- beginning of main
+01-01 01:39:31.716 67699  2163 I RecorderClient: RecorderClient Enter 
+01-01 01:39:31.717 67699  2163 I Adreno-UNKNOWN: <ReadGpuID:351>: Reading chip ID through GSL
+01-01 01:39:31.724 67699  2163 V ProcessState: Spawning new pooled thread, name=Binder_1
+01-01 01:39:31.724 67699  2163 I RecorderClient: RecorderClient Exit (0x0x559efc2b10)
+01-01 01:39:31.724 67699  2163 W RecorderClient: CheckServiceStatus Not connected to Recorder service!
+01-01 01:39:31.725 67699  2168 V ProcessState: Spawning new pooled thread, name=Binder_2
+01-01 01:39:31.725  3596  3612 I RecorderImpl: RecorderImpl: Enter
+01-01 01:39:31.725  3596  3612 I RecorderImpl: RecorderImpl: Exit
+01-01 01:39:31.725  3596  3612 I RecorderImpl: CreateRecorder: Recorder Instance Created Successfully(0x0x558fccfe80)
+01-01 01:39:31.725  3596  3612 I RecorderImpl: Init: Enter
+01-01 01:39:31.725  3596  3612 I RecorderCameraSource: CameraSource: Enter
+01-01 01:39:31.725  3596  3612 I RecorderCameraSource: CameraSource: Exit
+01-01 01:39:31.725  3596  3612 I RecorderCameraSource: CreateCameraSource: CameraSource Instance Created Successfully(0x558fcd00a0)
+01-01 01:39:31.725  3596  3612 I RecorderImpl: Init: CameraSource Instance Created Successfully!
+01-01 01:39:31.725  3596  3612 I OfflineJPEG: OfflineJpegEncoder: Enter 
+01-01 01:39:31.725  3596  3612 I OfflineJPEG: OfflineJpegEncoder: Exit 
+01-01 01:39:31.725  3596  3612 I OfflineJPEG: Init: Enter 
+01-01 01:39:31.725  3596  3612 V HAL     : loaded HAL id=camera path=/usr/lib/hw/camera.qcom.so hmi=0x7f99b2d498 handle=0x558fcd0400
+01-01 01:39:31.726  3596  3612 I OfflineJPEG: Init: Exit 
+01-01 01:39:31.726  3596  3612 I RecorderImpl: Init: Exit
+01-01 01:39:31.726  3596  3612 I RecorderRemoteCallBack: RemoteCallBack: Enter 
+01-01 01:39:31.726  3596  3612 I RecorderRemoteCallBack: RemoteCallBack: Exit client_id(1) (0x0x7f78001930)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: Enter client_id(1)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: client_session_map_.size(1)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: client_sessions_state_.size(1)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: client_sessions_mutex_map_.size(1)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: session_track_map.size(0)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: sessions_state_map.size(0)
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: client_status_map_.size(0)
+01-01 01:39:31.726  3596  3612 I OfflineJPEG: RegisterClient: Enter client_id 1
+01-01 01:39:31.726  3596  3612 I OfflineJPEG: RegisterClient: Client 1 registered successfully
+01-01 01:39:31.726  3596  3612 I OfflineJPEG: RegisterClient: Exit client_id 1
+01-01 01:39:31.726  3596  3612 I RecorderImpl: RegisterClient: Exit client_id(1)
+01-01 01:39:31.726  3596  3612 I RecorderService: Connect: Service is connected with client (1)
+01-01 01:39:31.726 67699  2163 I RecorderClient: Connect: client_id(1)
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int64 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int64 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.726 67699  2163 E Camera2-Metadata: Mismatched tag type when updating entry mode (0) of type byte; got type int32 data instead 
+01-01 01:39:31.742  3596  3612 W RecorderService: RecorderSerive:binderDied: Client Exited or Died!
+01-01 01:39:31.742  3596  3612 I RecorderService: ClientDeathHandler: client_id(1) died in battle!
+01-01 01:39:31.743  3596  3612 I RecorderService: DisconnectInternal: Enter client_id(1)
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeRegisterClient: Enter client_id(1)
+01-01 01:39:31.743  3596  3612 I OfflineJPEG: DeRegisterClient: Enter client_id 1
+01-01 01:39:31.743  3596  3612 I OfflineJPEG: DeRegisterClient: Client 1 removed successfully.
+01-01 01:39:31.743  3596  3612 I OfflineJPEG: DeRegisterClient: Exit client_id 1
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeRegisterClient: triggering force cleanup for dead client(1)
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeRegisterClient: Number of sessions(0) left after cleanup for client(1)!
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeRegisterClient: Client(1) Cameras 0
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeRegisterClient: Exit client_id(1)
+01-01 01:39:31.743  3596  3612 I RecorderService: DisconnectInternal: No client is connected! de-init the recorder!
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeInit: Enter
+01-01 01:39:31.743  3596  3612 I RecorderCameraSource: ~CameraSource: Enter
+01-01 01:39:31.743  3596  3612 I RecorderCameraSource: ~CameraSource: Exit (0x0x558fcd00a0)
+01-01 01:39:31.743  3596  3612 I OfflineJPEG: DeInit: Enter 
+01-01 01:39:31.743  3596  3612 I OfflineJPEG: DeInit: Exit 
+01-01 01:39:31.743  3596  3612 I RecorderImpl: DeInit: Exit
+01-01 01:39:31.743  3596  3612 I RecorderImpl: ~RecorderImpl: Enter
+01-01 01:39:31.743  3596  3612 I RecorderImpl: ~RecorderImpl: Exit (0x0x558fccfe80)
+01-01 01:39:31.743  3596  3612 I RecorderService: DisconnectInternal: Exit client_id(1)
+01-01 01:39:31.743  3596  3612 I RecorderRemoteCallBack: ~RemoteCallBack: Enter 
+01-01 01:39:31.743  3596  3612 I RecorderRemoteCallBack: ~RemoteCallBack: Exit (0x0x7f78001930)
