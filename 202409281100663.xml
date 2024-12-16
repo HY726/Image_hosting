@@ -1,9 +1,0 @@
-    <!-- Run command END_VTRAM_UPDATE -->
-    <regSetting>
-        <registerAddr>0x0203</registerAddr>
-        <registerData>0x2</registerData>
-        <regAddrType range="[1,4]">2</regAddrType>
-        <regDataType range="[1,4]">1</regDataType>
-        <operation>WRITE</operation>
-        <delayMs>2</delayMs>
-      </regSetting>
